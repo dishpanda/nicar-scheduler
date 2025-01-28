@@ -26,7 +26,6 @@ const DESCRIPTION_PREVIEW_LENGTH = 100;
 
 const WorkshopScheduler = () => {
   const scheduleData: Workshop[] = schedule;
-
   const [selectedWorkshops, setSelectedWorkshops] = useState(new Set<number>());
   const [conflictAlert, setConflictAlert] = useState<{
     workshop: Workshop | null;

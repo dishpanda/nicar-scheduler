@@ -31,16 +31,20 @@ export const CalendarView = ({
     const [hour, minute] = timeSlot.split(":");
     const slotTime = new Date();
     slotTime.setHours(parseInt(hour), parseInt(minute), 0, 0);
+    const slotEndTime = new Date(slotTime.getTime() + 30 * 60000); // Add 30 minutes
 
     return workshops
       .filter((workshop) => selectedWorkshops.has(workshop.session_id))
       .filter((workshop) => {
         const startTime = new Date(workshop.start_time);
-        // const endTime = new Date(workshop.end_time); // This is inaccurate for some workshops :/
+        const workshopSlotTime = new Date(startTime.getTime());
+        workshopSlotTime.setMinutes(
+          Math.floor(startTime.getMinutes() / 30) * 30,
+        );
         return (
           workshop.day === day &&
-          startTime.getHours() === slotTime.getHours() &&
-          startTime.getMinutes() === slotTime.getMinutes()
+          startTime.getHours() < slotEndTime.getHours() &&
+          startTime.getHours() >= slotTime.getHours()
         );
       });
   };
@@ -50,6 +54,12 @@ export const CalendarView = ({
     const end = new Date(workshop.end_time);
     const durationMinutes = (end.valueOf() - start.valueOf()) / (1000 * 60);
     return `${(durationMinutes / 30) * 4}rem`; // 4rem height for 30-minute slot
+  };
+
+  const calculateTopOffset = (workshop: Workshop) => {
+    const startTime = new Date(workshop.start_time);
+    const minutes = startTime.getMinutes() % 30;
+    return `${(minutes / 30) * 4}rem`; // Proportional offset based on minutes
   };
 
   const hasSelectedWorkshops = selectedWorkshops.size > 0;
@@ -101,6 +111,7 @@ export const CalendarView = ({
                             style={{
                               height: calculateSessionHeight(workshop),
                               backgroundColor: "#EBF5FF",
+                              top: calculateTopOffset(workshop),
                             }}
                             onClick={() => onWorkshopSelect(workshop)}
                           >
