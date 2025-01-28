@@ -19,51 +19,22 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { CalendarView } from "./CalendarView";
-import scheduleData from "../assets/nicar-2025-schedule.json";
+import schedule from "../assets/nicar-2025-schedule.json";
+import { Workshop } from "@/types/types"; // Adjust the path as necessary
 
 const DESCRIPTION_PREVIEW_LENGTH = 100;
 
-type Workshop = {
-  session_id: number;
-  session_title: string;
-  canceled: boolean;
-  description: string;
-  session_type: string;
-  track: string;
-  start_time: Date;
-  end_time: Date;
-  duration_mins: number;
-  duration_formatted: string;
-  evergreen: boolean;
-  cost: string;
-  prereg_link: string;
-  sponsor: string;
-  recorded: boolean;
-  audio_recording_link: string;
-  skill_level: string;
-  speakers: Speaker[];
-  tipsheets: string[];
-  room: Room;
-  day: string;
-};
-
-type Room = {
-  level: string;
-  recorded: boolean;
-  room_name: string;
-};
-
-type Speaker = {
-  first: string;
-  last: string;
-  affiliation: string;
-  bio: string;
-  social: string[];
-};
-
 const WorkshopScheduler = () => {
-  const [selectedWorkshops, setSelectedWorkshops] = useState(new Set());
-  const [conflictAlert, setConflictAlert] = useState(null);
+  const scheduleData: Workshop[] = schedule;
+
+  const [selectedWorkshops, setSelectedWorkshops] = useState(new Set<number>());
+  const [conflictAlert, setConflictAlert] = useState<{
+    workshop: Workshop | null;
+    conflict: Workshop | null;
+  }>({
+    workshop: null,
+    conflict: null,
+  });
   const [expandedCards, setExpandedCards] = useState(new Set());
   const [viewMode, setViewMode] = useState("grid"); // 'grid' or 'calendar'
   const [filters, setFilters] = useState({
@@ -101,10 +72,11 @@ const WorkshopScheduler = () => {
     });
   };
 
-  const checkTimeConflict = (workshop: Workshop) => {
+  const checkTimeConflict = (workshop: Workshop): Workshop | null => {
     for (const selectedId of selectedWorkshops) {
       const selected = scheduleData.find((w) => w.session_id === selectedId);
       if (
+        selected &&
         new Date(selected.start_time) < new Date(workshop.end_time) &&
         new Date(selected.end_time) > new Date(workshop.start_time)
       ) {
@@ -120,7 +92,7 @@ const WorkshopScheduler = () => {
     if (newSelected.has(workshop.session_id)) {
       newSelected.delete(workshop.session_id);
       setSelectedWorkshops(newSelected);
-      setConflictAlert(null);
+      setConflictAlert({ workshop: null, conflict: null });
     } else {
       const conflict = checkTimeConflict(workshop);
       if (conflict) {
@@ -131,7 +103,7 @@ const WorkshopScheduler = () => {
       } else {
         newSelected.add(workshop.session_id);
         setSelectedWorkshops(newSelected);
-        setConflictAlert(null);
+        setConflictAlert({ workshop: workshop, conflict: conflict });
       }
     }
   };
@@ -150,7 +122,7 @@ const WorkshopScheduler = () => {
   );
 
   const filteredWorkshops = useMemo(() => {
-    return scheduleData.filter((workshop) => {
+    return scheduleData.filter((workshop: Workshop) => {
       return (
         (filters.day === "all" || workshop.day === filters.day) &&
         (filters.skillLevel === "all" ||
@@ -163,7 +135,8 @@ const WorkshopScheduler = () => {
 
   const sortedWorkshops = useMemo(() => {
     return [...filteredWorkshops].sort((a, b) => {
-      const timeCompare = new Date(a.start_time) - new Date(b.start_time);
+      const timeCompare =
+        new Date(a.start_time).valueOf() - new Date(b.start_time).valueOf();
       if (timeCompare !== 0) return timeCompare;
       return (a.room?.room_name || "").localeCompare(b.room?.room_name || "");
     });
@@ -236,14 +209,16 @@ const WorkshopScheduler = () => {
   };
 
   const groupedWorkshops = useMemo(() => {
-    const groups = {};
+    const groups: { [key: string]: { [key: string]: Workshop[] } } = {};
     const sortedData = [...filteredWorkshops].sort((a, b) => {
-      return new Date(a.start_time) - new Date(b.start_time);
+      return (
+        new Date(a.start_time).valueOf() - new Date(b.start_time).valueOf()
+      );
     });
 
     sortedData.forEach((workshop) => {
       const day = workshop.day;
-      const startTime = formatDateTime(workshop.start_time);
+      const startTime = formatDateTime(workshop.start_time.toString());
 
       if (!groups[day]) {
         groups[day] = {};
@@ -345,12 +320,13 @@ const WorkshopScheduler = () => {
         </select>
       </div>
 
-      {conflictAlert && (
+      {conflictAlert.conflict != null && (
         <Alert className="mb-4 bg-yellow-50">
           <AlertTitle>Time Conflict Detected</AlertTitle>
           <AlertDescription>
-            "{conflictAlert.workshop.session_title}" conflicts with "
-            {conflictAlert.conflict.session_title}"
+            "{conflictAlert.workshop && conflictAlert.workshop.session_title}"
+            conflicts with "
+            {conflictAlert.conflict && conflictAlert.conflict.session_title}"
           </AlertDescription>
         </Alert>
       )}

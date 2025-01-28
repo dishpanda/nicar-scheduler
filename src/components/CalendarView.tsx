@@ -1,21 +1,25 @@
-import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Info } from "lucide-react";
+import { Workshop } from "@/types/types"; // Adjust the path as necessary
 
 export const CalendarView = ({
   workshops,
   selectedWorkshops,
   onWorkshopSelect,
+}: {
+  workshops: Workshop[];
+  selectedWorkshops: Set<number>;
+  onWorkshopSelect: (workshop: Workshop) => void;
 }) => {
   const days = ["Thursday", "Friday", "Saturday", "Sunday"];
-  const timeSlots = [];
+  const timeSlots: Array<string> = [];
 
   for (let hour = 8; hour <= 18; hour++) {
     timeSlots.push(`${hour}:00`);
     if (hour !== 18) timeSlots.push(`${hour}:30`);
   }
 
-  const formatTime = (time) => {
+  const formatTime = (time: string) => {
     const hour = parseInt(time.split(":")[0]);
     const minute = time.split(":")[1];
     const period = hour >= 12 ? "PM" : "AM";
@@ -23,7 +27,7 @@ export const CalendarView = ({
     return `${formattedHour}:${minute} ${period}`;
   };
 
-  const getWorkshopsForTimeSlot = (day, timeSlot) => {
+  const getWorkshopsForTimeSlot = (day: string, timeSlot: string) => {
     const [hour, minute] = timeSlot.split(":");
     const slotTime = new Date();
     slotTime.setHours(parseInt(hour), parseInt(minute), 0, 0);
@@ -32,7 +36,7 @@ export const CalendarView = ({
       .filter((workshop) => selectedWorkshops.has(workshop.session_id))
       .filter((workshop) => {
         const startTime = new Date(workshop.start_time);
-        const endTime = new Date(workshop.end_time);
+        // const endTime = new Date(workshop.end_time); // This is inaccurate for some workshops :/
         return (
           workshop.day === day &&
           startTime.getHours() === slotTime.getHours() &&
@@ -41,10 +45,10 @@ export const CalendarView = ({
       });
   };
 
-  const calculateSessionHeight = (workshop) => {
+  const calculateSessionHeight = (workshop: Workshop) => {
     const start = new Date(workshop.start_time);
     const end = new Date(workshop.end_time);
-    const durationMinutes = (end - start) / (1000 * 60);
+    const durationMinutes = (end.valueOf() - start.valueOf()) / (1000 * 60);
     return `${(durationMinutes / 30) * 4}rem`; // 4rem height for 30-minute slot
   };
 
@@ -93,7 +97,7 @@ export const CalendarView = ({
                         {slotWorkshops.map((workshop) => (
                           <Card
                             key={workshop.session_id}
-                            className="absolute left-1 right-1 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border-blue-500 border-2"
+                            className="z-10 absolute left-1 right-1 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow border-blue-500 border-2"
                             style={{
                               height: calculateSessionHeight(workshop),
                               backgroundColor: "#EBF5FF",
