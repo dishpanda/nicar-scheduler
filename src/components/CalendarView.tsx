@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Info } from "lucide-react";
-import { Workshop } from "@/types/types"; // Adjust the path as necessary
+import { Workshop } from "@/types/types";
 
 export const CalendarView = ({
   workshops,
@@ -29,22 +29,18 @@ export const CalendarView = ({
 
   const getWorkshopsForTimeSlot = (day: string, timeSlot: string) => {
     const [hour, minute] = timeSlot.split(":");
-    const slotTime = new Date();
-    slotTime.setHours(parseInt(hour), parseInt(minute), 0, 0);
-    const slotEndTime = new Date(slotTime.getTime() + 30 * 60000); // Add 30 minutes
+    const slotStartTime = new Date();
+    slotStartTime.setHours(parseInt(hour), parseInt(minute), 0, 0);
 
     return workshops
       .filter((workshop) => selectedWorkshops.has(workshop.session_id))
       .filter((workshop) => {
         const startTime = new Date(workshop.start_time);
-        const workshopSlotTime = new Date(startTime.getTime());
-        workshopSlotTime.setMinutes(
-          Math.floor(startTime.getMinutes() / 30) * 30,
-        );
         return (
           workshop.day === day &&
-          startTime.getHours() < slotEndTime.getHours() &&
-          startTime.getHours() >= slotTime.getHours()
+          startTime.getHours() === slotStartTime.getHours() &&
+          Math.floor(startTime.getMinutes() / 30) ===
+            Math.floor(parseInt(minute) / 30)
         );
       });
   };
@@ -81,7 +77,7 @@ export const CalendarView = ({
                 {timeSlots.map((time) => (
                   <div
                     key={time}
-                    className="h-16 flex items-center justify-end pr-2 text-sm text-gray-600"
+                    className="h-16 flex items-start justify-end pr-2 text-sm text-gray-600"
                   >
                     {formatTime(time)}
                   </div>

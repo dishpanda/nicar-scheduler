@@ -272,52 +272,54 @@ const WorkshopScheduler = () => {
       </div>
 
       {/* Filters */}
-      <div className="mb-6 flex flex-wrap gap-4">
-        <select
-          className="p-2 border rounded"
-          value={filters.day}
-          onChange={(e) =>
-            setFilters((prev) => ({ ...prev, day: e.target.value }))
-          }
-        >
-          <option value="all">All Days</option>
-          {filterOptions.days.map((day) => (
-            <option key={day} value={day}>
-              {day}
-            </option>
-          ))}
-        </select>
+      {viewMode === "grid" && (
+        <div className="mb-6 flex flex-wrap gap-4">
+          <select
+            className="p-2 border rounded"
+            value={filters.day}
+            onChange={(e) =>
+              setFilters((prev) => ({ ...prev, day: e.target.value }))
+            }
+          >
+            <option value="all">All Days</option>
+            {filterOptions.days.map((day) => (
+              <option key={day} value={day}>
+                {day}
+              </option>
+            ))}
+          </select>
 
-        <select
-          className="p-2 border rounded"
-          value={filters.skillLevel}
-          onChange={(e) =>
-            setFilters((prev) => ({ ...prev, skillLevel: e.target.value }))
-          }
-        >
-          <option value="all">All Skill Levels</option>
-          {filterOptions.skillLevels.map((level) => (
-            <option key={level} value={level}>
-              {level}
-            </option>
-          ))}
-        </select>
+          <select
+            className="p-2 border rounded"
+            value={filters.skillLevel}
+            onChange={(e) =>
+              setFilters((prev) => ({ ...prev, skillLevel: e.target.value }))
+            }
+          >
+            <option value="all">All Skill Levels</option>
+            {filterOptions.skillLevels.map((level) => (
+              <option key={level} value={level}>
+                {level}
+              </option>
+            ))}
+          </select>
 
-        <select
-          className="p-2 border rounded"
-          value={filters.sessionType}
-          onChange={(e) =>
-            setFilters((prev) => ({ ...prev, sessionType: e.target.value }))
-          }
-        >
-          <option value="all">All Session Types</option>
-          {filterOptions.sessionTypes.map((type) => (
-            <option key={type} value={type}>
-              {type}
-            </option>
-          ))}
-        </select>
-      </div>
+          <select
+            className="p-2 border rounded"
+            value={filters.sessionType}
+            onChange={(e) =>
+              setFilters((prev) => ({ ...prev, sessionType: e.target.value }))
+            }
+          >
+            <option value="all">All Session Types</option>
+            {filterOptions.sessionTypes.map((type) => (
+              <option key={type} value={type}>
+                {type}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
 
       {conflictAlert.conflict != null && (
         <Alert className="mb-4 bg-yellow-50">
