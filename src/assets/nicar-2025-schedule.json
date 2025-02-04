@@ -1,5 +1,56 @@
 [
   {
+    "session_id": 2070,
+    "session_title": "Beginner track: New to data journalism? Start here",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "Beginner",
+    "start_time": "2025-03-06T15:00:00Z",
+    "end_time": "2025-03-06T16:00:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Emmanuel",
+        "last": "Martinez",
+        "affiliation": "The Washington Post",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "MaryJo",
+        "last": "Webster",
+        "affiliation": "Minnesota Star Tribune",
+        "bio": "MaryJo Webster is the data editor at the Minnesota Star Tribune. Previously she worked at the St. Paul Pioneer Press, USA Today, Center for Public Integrity, Investigative Reporters & Editors and small newspapers in Minnesota and Wisconsin.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/maryjowebster.bsky.social"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/maryjo-webster-2733706/"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 4"
+    },
+    "day": "Thursday"
+  },
+  {
     "session_id": 2047,
     "session_title": "Big Local News tools, wares and resources",
     "canceled": false,
@@ -44,12 +95,20 @@
     "recorded": true,
     "audio_recording_link": "",
     "skill_level": "",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Becky",
+        "last": "Dernbach",
+        "affiliation": "Sahan Journal",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Thursday"
   },
@@ -78,34 +137,6 @@
       "os": "PC",
       "recorded": false,
       "room_name": "Spring Park Bay"
-    },
-    "day": "Thursday"
-  },
-  {
-    "session_id": 2011,
-    "session_title": "Google Sheets 1: Getting started with spreadsheets",
-    "canceled": false,
-    "description": "",
-    "session_type": "Hands-on",
-    "track": "",
-    "start_time": "2025-03-06T15:00:00Z",
-    "end_time": "2025-03-06T16:00:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "Beginner",
-    "speakers": [],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "os": "BYO",
-      "recorded": false,
-      "room_name": "Pine Lake/Cedar Lake"
     },
     "day": "Thursday"
   },
@@ -146,12 +177,12 @@
     "day": "Thursday"
   },
   {
-    "session_id": 2013,
-    "session_title": "Google Sheets 2: Formulas & sorting",
+    "session_id": 2071,
+    "session_title": "Beginner track: How to find data",
     "canceled": false,
     "description": "",
-    "session_type": "Hands-on",
-    "track": "",
+    "session_type": "Panel",
+    "track": "Beginner",
     "start_time": "2025-03-06T16:15:00Z",
     "end_time": "2025-03-06T17:15:00Z",
     "duration_mins": 60,
@@ -160,16 +191,23 @@
     "cost": "",
     "prereg_link": "",
     "sponsor": "",
-    "recorded": false,
+    "recorded": true,
     "audio_recording_link": "",
-    "skill_level": "Beginner",
-    "speakers": [],
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Greta",
+        "last": "Kaul",
+        "affiliation": "Minnesota Star Tribune",
+        "bio": "Greta Kaul covers the built environment, including development and livability issues, at the Star Tribune. Prior to joining the Star Tribune, she was the data reporter at the Star Tribune.",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
-      "os": "BYO",
-      "recorded": false,
-      "room_name": "Pine Lake/Cedar Lake"
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Thursday"
   },
@@ -211,7 +249,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Thursday"
   },
@@ -219,7 +257,7 @@
     "session_id": 2052,
     "session_title": "Using Python to scrape websites",
     "canceled": false,
-    "description": "",
+    "description": "This session will show you how to use the Python programming language to scrape data from simple websites.\n\nThis session is good for: People with some experience working with data. Experience with Python and/or HTML is a plus but not necessary. Laptops will be provided.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-06T16:15:00Z",
@@ -233,7 +271,15 @@
     "recorded": false,
     "audio_recording_link": "",
     "skill_level": "Intermediate",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Allan James",
+        "last": "Vestal",
+        "affiliation": "Independent journalist",
+        "bio": "Allan James Vestal is a data journalist and editor who has served in roles at Politico and Bloomberg News, among other outlets. He has worked on teams to expose serious flaws in the nation’s newborn screening system, track residential natural gas accidents and show serious accountability gaps in state-run nursing homes for military veterans. Vestal has directed teams of journalists and developers in building interactive election-night experiences in 2020, 2022 and 2024.",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "eighth",
@@ -266,8 +312,13 @@
         "first": "Maggie",
         "last": "Mulvihill",
         "affiliation": "Boston University",
-        "bio": "",
-        "social": []
+        "bio": "Maggie Mulvihill is a veteran reporter, data journalism trainer, news entrepreneur, First Amendment advocate and attorney. Mulvihill is an associate professor of the practice in computational journalism at Boston University and a member of IRE’s Academic Task Force.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/@maggiemulvihill"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -276,34 +327,6 @@
       "os": "PC",
       "recorded": false,
       "room_name": "Spring Park Bay"
-    },
-    "day": "Thursday"
-  },
-  {
-    "session_id": 2064,
-    "session_title": "Finding the story: Reproductive health data",
-    "canceled": false,
-    "description": "",
-    "session_type": "Hands-on",
-    "track": "",
-    "start_time": "2025-03-06T17:30:00Z",
-    "end_time": "2025-03-06T18:30:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "os": "PC",
-      "recorded": false,
-      "room_name": "Crystal Lake"
     },
     "day": "Thursday"
   },
@@ -397,7 +420,7 @@
     "speakers": [
       {
         "first": "Dana",
-        "last": "Chiueh",
+        "last": "Chieuh",
         "affiliation": "Minnesota Star Tribune",
         "bio": "",
         "social": []
@@ -477,8 +500,21 @@
         "first": "Jonathan",
         "last": "Soma",
         "affiliation": "Columbia University",
-        "bio": "",
-        "social": []
+        "bio": "Jonathan Soma is Knight Chair in Data Journalism at Columbia Journalism School, where he directs both the Data Journalism MS and the summer intensive Lede program. He regularly publishes tutorials on everything from basic Python and analysis to ai2html and machine learning. At the moment he unfortunately cannot stop talking about AI. When Soma isn't boring his students to tears he's probably rescuing cats.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/dangerscarf"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/jsoma/"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/dangerscarf.bsky.social"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -486,33 +522,6 @@
       "level": "sixth",
       "recorded": false,
       "room_name": "Minnesota"
-    },
-    "day": "Thursday"
-  },
-  {
-    "session_id": 2010,
-    "session_title": "What to do when the data doesn't exist",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
-    "track": "",
-    "start_time": "2025-03-06T20:15:00Z",
-    "end_time": "2025-03-06T21:15:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 2"
     },
     "day": "Thursday"
   },
@@ -574,8 +583,8 @@
       {
         "first": "Chad",
         "last": "Day",
-        "affiliation": "Associated Press",
-        "bio": "",
+        "affiliation": "The Associated Press",
+        "bio": "Chad Day is the chief elections analyst for The Associated Press and a member of AP’s Decision Desk. He writes about politics and elections and also teaches data journalism at Georgetown University. He previously worked at The Wall Street Journal, where he was part of a team awarded the 2023 Pulitzer Prize in Investigative Reporting.",
         "social": []
       }
     ],
@@ -585,6 +594,33 @@
       "os": "Mac",
       "recorded": false,
       "room_name": "Excelsior Bay"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 2072,
+    "session_title": "Beginner track: How to request data and documents: FOI",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "Beginner",
+    "start_time": "2025-03-06T22:45:00Z",
+    "end_time": "2025-03-06T23:45:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Thursday"
   },
@@ -615,6 +651,41 @@
       "room_name": "Pine Lake/Cedar Lake"
     },
     "day": "Thursday"
+  },
+  {
+    "session_id": 2073,
+    "session_title": "Beginner track: Feed the beast: Integrating data nuggets on deadline",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "Beginner",
+    "start_time": "2025-03-07T15:00:00Z",
+    "end_time": "2025-03-07T16:00:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Stephen",
+        "last": "Stock",
+        "affiliation": "WVUE",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 4"
+    },
+    "day": "Friday"
   },
   {
     "session_id": 2023,
@@ -719,8 +790,21 @@
         "first": "Jonathan",
         "last": "Soma",
         "affiliation": "Columbia University",
-        "bio": "",
-        "social": []
+        "bio": "Jonathan Soma is Knight Chair in Data Journalism at Columbia Journalism School, where he directs both the Data Journalism MS and the summer intensive Lede program. He regularly publishes tutorials on everything from basic Python and analysis to ai2html and machine learning. At the moment he unfortunately cannot stop talking about AI. When Soma isn't boring his students to tears he's probably rescuing cats.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/dangerscarf"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/jsoma/"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/dangerscarf.bsky.social"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -774,6 +858,58 @@
       "os": "Mac",
       "recorded": false,
       "room_name": "Excelsior Bay"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 2024,
+    "session_title": "QGIS 2: Analyzing geographic data",
+    "canceled": false,
+    "description": "Build on your existing knowledge of QGIS and learn how to explore, manipulate and analyze geographic datasets to gain new insights. \n\nThis session is good for: Those who attended the QGIS I workshop or already know the basics of visualizing geographic data in QGIS. Laptops will be provided.",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-07T16:15:00Z",
+    "end_time": "2025-03-07T17:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "Daniel",
+        "last": "Wainwright",
+        "affiliation": "BBC News",
+        "bio": "Daniel Wainwright is a senior data journalist with BBC News. He's covered UK elections both general and local and worked on the results of the 2024 U.S. election. He's previously been political editor of a regional newspaper in England and produced content from the 2021 Census for the UK's Office for National Statistics.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/danwainwright.bsky.social"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/daniel-wainwright-aa266b22"
+          }
+        ]
+      },
+      {
+        "first": "John",
+        "last": "Walton",
+        "affiliation": "BBC News",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Deer Lake"
     },
     "day": "Friday"
   },
@@ -840,9 +976,18 @@
       {
         "first": "Jasmine",
         "last": "Han",
-        "affiliation": "Industry Dive",
-        "bio": "",
-        "social": []
+        "affiliation": "Informa TechTarget (Industry Dive)",
+        "bio": "Jasmine Ye Han is a news graphics developer at Informa TechTarget (Industry Dive), where she tells business news stories with data analysis and visualizations. Previously she was a data journalism reporter at Bloomberg Industry Group. Jasmine is an alumnus of the Missouri School of Journalism and NICAR data library. She moved to the U.S. from China in 2014. ",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/JasmineHanYe"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jasmine-ye-han-08122380/"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -883,198 +1028,6 @@
     "day": "Friday"
   },
   {
-    "session_id": 2039,
-    "session_title": "Web scraping with Python *pre-registered attendees only",
-    "canceled": false,
-    "description": "If you need data that's trapped on a website, writing some code to scrape the page could be your solution. This entry-level class will show you how to use the Python programming language to harvest data from a website into a data file. We'll introduce you to the command line and code notebookes and show you how to fetch and parse content from the web using Python.\n\nPreregistration is required and seating is limited. Laptops will be provided.\n\nWorkshop prerequisites: This class is programming for beginners. Some basic familiarity with Python and HTML is helpful but not required.",
-    "session_type": "Pre-registration - Hands-on",
-    "track": "",
-    "start_time": "2025-03-07T20:15:00Z",
-    "end_time": "2025-03-07T22:30:00Z",
-    "duration_mins": 135,
-    "duration_formatted": "2h 15m",
-    "evergreen": false,
-    "cost": 25,
-    "prereg_link": "https://www.ire.org/product/nicar25-web-scraping-with-python/",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "Intermediate",
-    "speakers": [
-      {
-        "first": "Cody",
-        "last": "Winchester",
-        "affiliation": "IRE & NICAR",
-        "bio": "Cody Winchester was a newspaper reporter, data specialist and web developer before joining IRE as a training director in 2017. He became tech lead in 2022.",
-        "social": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/cjwinchester"
-          }
-        ]
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "os": "PC",
-      "recorded": false,
-      "room_name": "Deer Lake"
-    },
-    "day": "Friday"
-  },
-  {
-    "session_id": 2009,
-    "session_title": "Fun with shapes: Scripted mapping in R or Python *pre-registered attendees only",
-    "canceled": false,
-    "description": "Let's face it, QGIS is the Excel of geospatial analysis. Sure, doing simple mapping in it and ArcGIS is a blast, but executing complex, reproducible joins and measurements can be a real drag. Taking a more scripted approach is way less of a buzzkill, especially when you need to revisit your earlier work or share with others.\n\nWhether you choose R or Python, follow along from mapping basics to more complex techniques that will make your next geospatial analysis a walk in the park. Cut loose, write some replicable code and have fun with shapes!\n\nPreregistration is required and seating is limited. To get the most out of this session, you should have a working knowledge of both GIS/mapping techniques and some experience with either Python or R.",
-    "session_type": "Pre-registration - Hands-on",
-    "track": "",
-    "start_time": "2025-03-08T15:00:00Z",
-    "end_time": "2025-03-08T18:30:00Z",
-    "duration_mins": 210,
-    "duration_formatted": "3h 30m",
-    "evergreen": false,
-    "cost": 40,
-    "prereg_link": "https://www.ire.org/product/nicar25-fun-with-shapes-scripted-mapping-in-r-or-python/",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "Intermediate",
-    "speakers": [
-      {
-        "first": "Allie",
-        "last": "Kanik",
-        "affiliation": "Hearst",
-        "bio": "",
-        "social": []
-      },
-      {
-        "first": "Ryan",
-        "last": "Little",
-        "affiliation": "Baltimore Banner",
-        "bio": "",
-        "social": []
-      },
-      {
-        "first": "Cam",
-        "last": "Rodriguez",
-        "affiliation": "The New York Times",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [
-      {
-        "label": "GitHub repo",
-        "url": "https://github.com/cjwinchester/nicar24-scraping"
-      }
-    ],
-    "room": {
-      "level": "sixth",
-      "os": "Mac",
-      "recorded": false,
-      "room_name": "St. Croix I"
-    },
-    "day": "Saturday"
-  },
-  {
-    "session_id": 2024,
-    "session_title": "QGIS 2: Analyzing geographic data",
-    "canceled": false,
-    "description": "Build on your existing knowledge of QGIS and learn how to explore, manipulate and analyze geographic datasets to gain new insights. \n\nThis session is good for: Those who attended the QGIS I workshop or already know the basics of visualizing geographic data in QGIS. Laptops will be provided.",
-    "session_type": "Hands-on",
-    "track": "",
-    "start_time": "2025-03-07T16:15:00Z",
-    "end_time": "2025-03-07T17:15:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "Beginner",
-    "speakers": [
-      {
-        "first": "Daniel",
-        "last": "Wainwright",
-        "affiliation": "BBC News",
-        "bio": "Daniel Wainwright is a senior data journalist with BBC News. He's covered UK elections both general and local and worked on the results of the 2024 U.S. election. He's previously been political editor of a regional newspaper in England and produced content from the 2021 Census for the UK's Office for National Statistics.",
-        "social": [
-          {
-            "label": "Bluesky",
-            "url": "https://bsky.app/profile/danwainwright.bsky.social"
-          },
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/daniel-wainwright-aa266b22"
-          }
-        ]
-      },
-      {
-        "first": "John",
-        "last": "Walton",
-        "affiliation": "BBC News",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "os": "PC",
-      "recorded": false,
-      "room_name": "Deer Lake"
-    },
-    "day": "Friday"
-  },
-  {
-    "session_id": 2057,
-    "session_title": "15 health datasets in 60 minutes",
-    "canceled": false,
-    "description": "Illness, disease and death, oh my! Health data can be a scary subject full of unreliable methods and incomplete data. We'll show you 15 reliable health-related databases and demonstrate how they can be used to localize national trends.",
-    "session_type": "Demo",
-    "track": "",
-    "start_time": "2025-03-07T20:15:00Z",
-    "end_time": "2025-03-07T21:15:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [
-      {
-        "first": "Madi",
-        "last": "Alexander",
-        "affiliation": "Politico",
-        "bio": "Madi Alexander is the senior graphics editor on POLITICO’s data and graphics team, where she covers health care, education and other public policy issues. She previously worked as a data journalist for Bloomberg Government and The Dallas Morning News. Madi has a master’s degree in journalism from the University of Missouri. Outside of work, she enjoys birding and volunteers for Guide Dogs for the Blind.",
-        "social": [
-          {
-            "label": "X",
-            "url": "https://x.com/madilalexander"
-          },
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/madialexander/"
-          }
-        ]
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 4"
-    },
-    "day": "Friday"
-  },
-  {
     "session_id": 2050,
     "session_title": "Analyzing images and videos with AI",
     "canceled": false,
@@ -1097,8 +1050,21 @@
         "first": "Jonathan",
         "last": "Soma",
         "affiliation": "Columbia University",
-        "bio": "",
-        "social": []
+        "bio": "Jonathan Soma is Knight Chair in Data Journalism at Columbia Journalism School, where he directs both the Data Journalism MS and the summer intensive Lede program. He regularly publishes tutorials on everything from basic Python and analysis to ai2html and machine learning. At the moment he unfortunately cannot stop talking about AI. When Soma isn't boring his students to tears he's probably rescuing cats.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/dangerscarf"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/jsoma/"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/dangerscarf.bsky.social"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -1146,7 +1112,155 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 2020,
+    "session_title": "Google Sheets: Importing & data prep (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-07T20:15:00Z",
+    "end_time": "2025-03-07T21:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Birch Lake/Maple Lake"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 2039,
+    "session_title": "Web scraping with Python *pre-registered attendees only",
+    "canceled": false,
+    "description": "If you need data that's trapped on a website, writing some code to scrape the page could be your solution. This entry-level class will show you how to use the Python programming language to harvest data from a website into a data file. We'll introduce you to the command line and code notebookes and show you how to fetch and parse content from the web using Python.\n\nPreregistration is required and seating is limited. Laptops will be provided.\n\nWorkshop prerequisites: This class is programming for beginners. Some basic familiarity with Python and HTML is helpful but not required.",
+    "session_type": "Pre-registration - Hands-on",
+    "track": "",
+    "start_time": "2025-03-07T20:15:00Z",
+    "end_time": "2025-03-07T22:30:00Z",
+    "duration_mins": 135,
+    "duration_formatted": "2h 15m",
+    "evergreen": false,
+    "cost": 25,
+    "prereg_link": "https://www.ire.org/product/nicar25-web-scraping-with-python/",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Intermediate",
+    "speakers": [
+      {
+        "first": "Cody",
+        "last": "Winchester",
+        "affiliation": "IRE & NICAR",
+        "bio": "Cody Winchester was a newspaper reporter, data specialist and web developer before joining IRE as a training director in 2017. He became tech lead in 2022.",
+        "social": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/cjwinchester"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Deer Lake"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 2057,
+    "session_title": "15 health datasets in 60 minutes",
+    "canceled": false,
+    "description": "Illness, disease and death, oh my! Health data can be a scary subject full of unreliable methods and incomplete data. We'll show you 15 reliable health-related databases and demonstrate how they can be used to localize national trends.",
+    "session_type": "Demo",
+    "track": "",
+    "start_time": "2025-03-07T21:30:00Z",
+    "end_time": "2025-03-07T22:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Madi",
+        "last": "Alexander",
+        "affiliation": "Politico",
+        "bio": "Madi Alexander is the senior graphics editor on POLITICO’s data and graphics team, where she covers health care, education and other public policy issues. She previously worked as a data journalist for Bloomberg Government and The Dallas Morning News. Madi has a master’s degree in journalism from the University of Missouri. Outside of work, she enjoys birding and volunteers for Guide Dogs for the Blind.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/madilalexander"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/madialexander/"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 3"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 2075,
+    "session_title": "Beginner track: Creating meatier stories: Sourcing, documents and other tools for start investigative reporting",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "Beginner",
+    "start_time": "2025-03-07T21:30:00Z",
+    "end_time": "2025-03-07T22:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Aaron",
+        "last": "Mendelson",
+        "affiliation": "The Trace",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Friday"
   },
@@ -1194,6 +1308,48 @@
     "day": "Friday"
   },
   {
+    "session_id": 2076,
+    "session_title": "Beginner track: Tools to save you time",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "Beginner",
+    "start_time": "2025-03-08T15:00:00Z",
+    "end_time": "2025-03-08T16:00:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Tyler",
+        "last": "Dukes",
+        "affiliation": "McClatchy Media",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "Cynthia",
+        "last": "Tu",
+        "affiliation": "Sahan Journal",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 2"
+    },
+    "day": "Saturday"
+  },
+  {
     "session_id": 2037,
     "session_title": "PyCAR  *pre-registered attendees only",
     "canceled": false,
@@ -1216,15 +1372,21 @@
         "first": "Caroline",
         "last": "Ghisolfi",
         "affiliation": "Houston Chronicle",
-        "bio": "",
-        "social": []
-      },
-      {
-        "first": "Yoohyun",
-        "last": "Jung",
-        "affiliation": "Boston Globe",
-        "bio": "",
-        "social": []
+        "bio": "Caroline Ghisolfi is the deputy data editor for the Houston Chronicle. Before coming to Houston, Caroline was at the Austin American-Statesman, where she was part of the team selected as a Pulitzer finalist in public service. She trained in data journalism in multiple roles at the Associated Press and holds a journalism master's degree from Stanford University.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/carolineghisolf"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/carolineeghisolfi"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/caroline-ghisolfi/"
+          }
+        ]
       },
       {
         "first": "Justin",
@@ -1308,7 +1470,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Saturday"
   },
@@ -1354,6 +1516,41 @@
       "os": "PC",
       "recorded": false,
       "room_name": "Spring Park Bay"
+    },
+    "day": "Saturday"
+  },
+  {
+    "session_id": 2074,
+    "session_title": "Beginner track: Writing with numbers",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "Beginner",
+    "start_time": "2025-03-08T17:30:00Z",
+    "end_time": "2025-03-08T18:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Jennifer",
+        "last": "LaFleur",
+        "affiliation": "UC Berkeley",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Saturday"
   },
@@ -1417,13 +1614,20 @@
         "affiliation": "Reuters",
         "bio": "",
         "social": []
+      },
+      {
+        "first": "Gavin",
+        "last": "Off",
+        "affiliation": "Charlotte Observer",
+        "bio": "",
+        "social": []
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Saturday"
   },
@@ -1480,6 +1684,34 @@
     "day": "Saturday"
   },
   {
+    "session_id": 2014,
+    "session_title": "Google Sheets 2: Formulas & sorting (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-08T20:15:00Z",
+    "end_time": "2025-03-08T21:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Pine Lake/Cedar Lake"
+    },
+    "day": "Saturday"
+  },
+  {
     "session_id": 2036,
     "session_title": "Introduction to R *pre-registered attendees only",
     "canceled": false,
@@ -1521,6 +1753,90 @@
     "day": "Saturday"
   },
   {
+    "session_id": 2063,
+    "session_title": "Finding the story: Immigration data",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-08T21:30:00Z",
+    "end_time": "2025-03-08T22:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Deer Lake"
+    },
+    "day": "Saturday"
+  },
+  {
+    "session_id": 2022,
+    "session_title": "Google Sheets: Using string functions to manipulate data (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-08T21:30:00Z",
+    "end_time": "2025-03-08T22:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Crystal Lake"
+    },
+    "day": "Saturday"
+  },
+  {
+    "session_id": 2016,
+    "session_title": "Google Sheets 3: Filtering & pivot tables (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-08T22:45:00Z",
+    "end_time": "2025-03-08T23:45:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Pine Lake/Cedar Lake"
+    },
+    "day": "Saturday"
+  },
+  {
     "session_id": 2034,
     "session_title": "First visual story: Launch a data-driven website *pre-registered attendees only",
     "canceled": false,
@@ -1543,7 +1859,7 @@
         "first": "James",
         "last": "Thomas",
         "affiliation": "The New York Times",
-        "bio": "",
+        "bio": "James is a software engineer in the interactive news department of The New York Times, a team of technologists that creates tools used by reporters and editors to exceed the capabilities of the content management system.",
         "social": []
       },
       {
@@ -1571,14 +1887,14 @@
     "day": "Sunday"
   },
   {
-    "session_id": 2063,
-    "session_title": "Finding the story: Immigration data",
+    "session_id": 2026,
+    "session_title": "R 1: Intro to R and RStudio (repeat)",
     "canceled": false,
     "description": "",
     "session_type": "Hands-on",
     "track": "",
-    "start_time": "2025-03-08T21:30:00Z",
-    "end_time": "2025-03-08T22:30:00Z",
+    "start_time": "2025-03-09T14:00:00Z",
+    "end_time": "2025-03-09T15:00:00Z",
     "duration_mins": 60,
     "duration_formatted": "1h",
     "evergreen": false,
@@ -1587,16 +1903,130 @@
     "sponsor": "",
     "recorded": false,
     "audio_recording_link": "",
-    "skill_level": "",
+    "skill_level": "Intermediate",
+    "speakers": [
+      {
+        "first": "Destiny",
+        "last": "Herbers",
+        "affiliation": "Flatwater Free Press",
+        "bio": "Destiny is an investigative journalist at the Flatwater Free Press, where she uses data to tell stories that matter to Nebraskans, often focusing on Indigenous affairs and environmental issues. She was previously a Roy W. Howard fellow at FFP, and got her master’s degree in journalism at the University of Maryland as a fellow of the Howard Center for Investigative Journalism.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/@destinyherbers.bsky.social"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/destinyherbers/"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "eighth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Spring Park Bay"
+    },
+    "day": "Sunday"
+  },
+  {
+    "session_id": 2028,
+    "session_title": "R 2: Data analysis and plotting (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-09T15:15:00Z",
+    "end_time": "2025-03-09T16:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Intermediate",
     "speakers": [],
     "tipsheets": [],
     "room": {
-      "level": "fourth",
+      "level": "eighth",
       "os": "PC",
       "recorded": false,
-      "room_name": "Deer Lake"
+      "room_name": "Spring Park Bay"
     },
-    "day": "Saturday"
+    "day": "Sunday"
+  },
+  {
+    "session_id": 2018,
+    "session_title": "Google Sheets: Advanced pivot tables (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-09T16:30:00Z",
+    "end_time": "2025-03-09T17:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "George",
+        "last": "LeVines",
+        "affiliation": "The Trace",
+        "bio": "George LeVines is the editor of the Gun Violence Data Hub at The Trace. He previously worked at the Los Angeles Times, NPR and CQ Roll Call.",
+        "social": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/georgelevines/"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "eighth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Wayzata Bay"
+    },
+    "day": "Sunday"
+  },
+  {
+    "session_id": 2030,
+    "session_title": "R 3: Gathering and cleaning data (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-09T16:30:00Z",
+    "end_time": "2025-03-09T17:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Intermediate",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "eighth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Spring Park Bay"
+    },
+    "day": "Sunday"
   },
   {
     "session_id": 2087,
@@ -1667,57 +2097,6 @@
     "day": "Thursday"
   },
   {
-    "session_id": 2070,
-    "session_title": "Beginner track: New to data journalism? Start here",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
-    "track": "Beginner",
-    "start_time": "2025-03-06T15:00:00Z",
-    "end_time": "2025-03-06T16:00:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [
-      {
-        "first": "Emmanuel",
-        "last": "Martinez",
-        "affiliation": "The Washington Post",
-        "bio": "",
-        "social": []
-      },
-      {
-        "first": "MaryJo",
-        "last": "Webster",
-        "affiliation": "Minnesota Star Tribune",
-        "bio": "MaryJo Webster is the data editor at the Minnesota Star Tribune. Previously she worked at the St. Paul Pioneer Press, USA Today, Center for Public Integrity, Investigative Reporters & Editors and small newspapers in Minnesota and Wisconsin.",
-        "social": [
-          {
-            "label": "Bluesky",
-            "url": "https://bsky.app/profile/maryjowebster.bsky.social"
-          },
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/maryjo-webster-2733706/"
-          }
-        ]
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 4"
-    },
-    "day": "Thursday"
-  },
-  {
     "session_id": 2000,
     "session_title": "Coaching ChatGPT to help with coding and data tasks",
     "canceled": false,
@@ -1768,13 +2147,29 @@
         "first": "Helena",
         "last": "Bengtsson",
         "affiliation": "Gota Media",
-        "bio": "",
-        "social": []
+        "bio": "Helena Bengtsson is data journalism editor at Gota Media, a regional publishing company in the south of Sweden with 14 local titles. She previously worked as editor for data journalism at Sveriges Television, Sweden’s national television broadcaster for 27 years, and she also served as editor, data projects, for the Guardian UK between 2014-2017. In 2006 and 2007, she was database editor at the Center for Public Integrity in Washington, D.C.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/HelenaBengtsson"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/helenabengtsson.bsky.social"
+          }
+        ]
       },
       {
         "first": "Irene",
         "last": "Casado Sanchez",
         "affiliation": "Big Local News",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "Eva",
+        "last": "Constantaras",
+        "affiliation": "Lighthouse Reports",
         "bio": "",
         "social": []
       }
@@ -1783,7 +2178,99 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 3013,
+    "session_title": "Finding the story: Using DNS search for investigative journalism",
+    "canceled": false,
+    "description": "Every online interaction begins with a lookup in the Domain Name System (DNS), the backbone of the Internet. As a result, there are digital footprints left behind in the DNS. With the demise of Whois, investigative reporters are looking for new tools to uncover these footprints. Learn how to use DNSDB Scout, a tool to query DNSDB, a historical passive DNS database, to discover previously unknown online connections and gain new information to advance your  ongoing and breaking news investigations. \n\nBasic knowledge of the Domain Name System (DNS) is helpful, but not required. Attendees will need to bring their own laptop (no tablets) to participate in this class.",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-06T15:00:00Z",
+    "end_time": "2025-03-06T16:00:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Intermediate",
+    "speakers": [
+      {
+        "first": "Kelly",
+        "last": "Molloy",
+        "affiliation": "Domain Tools",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "eighth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Wayzata Bay"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 1066,
+    "session_title": "First SvelteKit data app",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-06T15:00:00Z",
+    "end_time": "2025-03-06T16:00:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Intermediate",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "sixth",
+      "os": "Mac",
+      "recorded": false,
+      "room_name": "St. Croix I"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 2011,
+    "session_title": "Google Sheets 1: Getting started with spreadsheets",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-06T15:00:00Z",
+    "end_time": "2025-03-06T16:00:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Pine Lake/Cedar Lake"
     },
     "day": "Thursday"
   },
@@ -1854,17 +2341,17 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Thursday"
   },
   {
-    "session_id": 2071,
-    "session_title": "Beginner track: How to find data",
+    "session_id": 3025,
+    "session_title": "Analyze large datasets in Google Sheets via Google Cloud",
     "canceled": false,
     "description": "",
-    "session_type": "Panel",
-    "track": "Beginner",
+    "session_type": "Hands-on",
+    "track": "",
     "start_time": "2025-03-06T16:15:00Z",
     "end_time": "2025-03-06T17:15:00Z",
     "duration_mins": 60,
@@ -1873,23 +2360,24 @@
     "cost": "",
     "prereg_link": "",
     "sponsor": "",
-    "recorded": true,
+    "recorded": false,
     "audio_recording_link": "",
     "skill_level": "",
     "speakers": [
       {
-        "first": "Greta",
-        "last": "Kaul",
-        "affiliation": "Minnesota Star Tribune",
-        "bio": "Greta Kaul covers the built environment, including development and livability issues, at the Star Tribune. Prior to joining the Star Tribune, she was the data reporter at the Star Tribune.",
+        "first": "Tiff",
+        "last": "Fehr",
+        "affiliation": "The New York Times",
+        "bio": "",
         "social": []
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 4"
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Birch Lake/Maple Lake"
     },
     "day": "Thursday"
   },
@@ -1939,12 +2427,12 @@
     "day": "Thursday"
   },
   {
-    "session_id": 1030,
-    "session_title": "Navigating Census data: Exploring regions and trends over time",
+    "session_id": 2013,
+    "session_title": "Google Sheets 2: Formulas & sorting",
     "canceled": false,
     "description": "",
     "session_type": "Hands-on",
-    "track": "Census",
+    "track": "",
     "start_time": "2025-03-06T16:15:00Z",
     "end_time": "2025-03-06T17:15:00Z",
     "duration_mins": 60,
@@ -1956,21 +2444,41 @@
     "recorded": false,
     "audio_recording_link": "",
     "skill_level": "Beginner",
-    "speakers": [
-      {
-        "first": "Faith",
-        "last": "Whittington",
-        "affiliation": "Census Bureau",
-        "bio": "",
-        "social": []
-      }
-    ],
+    "speakers": [],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "os": "BYO",
       "recorded": false,
-      "room_name": "Birch Lake/Maple Lake"
+      "room_name": "Pine Lake/Cedar Lake"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 3014,
+    "session_title": "Introduction to the command line (Macs)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-06T16:15:00Z",
+    "end_time": "2025-03-06T17:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "sixth",
+      "os": "Mac",
+      "recorded": false,
+      "room_name": "St. Croix I"
     },
     "day": "Thursday"
   },
@@ -2051,7 +2559,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Thursday"
   },
@@ -2086,7 +2594,43 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 3023,
+    "session_title": "The wonders of CDC WONDER: Analyzing birth and death data",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-06T16:15:00Z",
+    "end_time": "2025-03-06T17:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Paul",
+        "last": "Overberg",
+        "affiliation": "The Wall Street Journal",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "eighth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Spring Park Bay"
     },
     "day": "Thursday"
   },
@@ -2130,7 +2674,7 @@
     "session_id": 1050,
     "session_title": "Bill Tracker: How to collect and analyze legislative data for any beat",
     "canceled": false,
-    "description": "",
+    "description": "This session explains how any reporter can search for pending legislation in any state – or across the country – collect the data and analyze it through a new tool developed with journalists in mind. This bill tracker, through BillTrack50, allows journalists to search for bills by topic and analyze the data going back 14 years. The tool integrates machine learning, which allows searches with greater precision, reducing misses resulting from simple keyword searches. Come to this session to learn how to use it. See the application of the tool by the University of Florida Brechner Freedom of Information Project to track secrecy legislation, and hear from the data experts at Stanford University’s Big Local News on possible applications of this data, along with other civic information search tools they provide for journalists.",
     "session_type": "Hands-on",
     "track": "Public records",
     "start_time": "2025-03-06T17:30:00Z",
@@ -2302,7 +2846,7 @@
     "speakers": [
       {
         "first": "Dana",
-        "last": "Chiueh",
+        "last": "Chieuh",
         "affiliation": "Minnesota Star Tribune",
         "bio": "",
         "social": []
@@ -2350,7 +2894,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Thursday"
   },
@@ -2398,7 +2942,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Thursday"
   },
@@ -2433,7 +2977,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Thursday"
   },
@@ -2517,7 +3061,7 @@
     "session_id": 1055,
     "session_title": "Advanced Python mapping techniques",
     "canceled": false,
-    "description": "",
+    "description": "Roughly a quarter of Americans live more than 30 minutes away from a high-level trauma center. Peer-reviewed research suggests that this distance can literally make the difference between a patient living or dying of a traumatic injury. In this session I would explain how we used cutting-edge GIS tools in Python to map trauma care deserts in the United States for the IRE Award-winning series \"Bleeding Out.\" The methods we use for this project can be generalized for lots of journalistic applications, from reproductive healthcare to food deserts.\n\nThis session is good for those with experience using Python and Pandas.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-06T20:15:00Z",
@@ -2598,6 +3142,13 @@
         ]
       },
       {
+        "first": "Catherine",
+        "last": "Allen",
+        "affiliation": "Politico",
+        "bio": "",
+        "social": []
+      },
+      {
         "first": "Taylor",
         "last": "Thomas",
         "affiliation": "Politico",
@@ -2639,13 +3190,27 @@
         "affiliation": "The Wall Street Journal",
         "bio": "",
         "social": []
+      },
+      {
+        "first": "Ryan",
+        "last": "McNeill",
+        "affiliation": "Reuters",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "John",
+        "last": "West",
+        "affiliation": "Wall Street Journal",
+        "bio": "",
+        "social": []
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Thursday"
   },
@@ -2653,7 +3218,7 @@
     "session_id": 1104,
     "session_title": "Learning a new beat in data",
     "canceled": false,
-    "description": "",
+    "description": "Lots of early-career data and graphics journalists may find themselves working on a niche beat new to them, with complicated data, hard-to-find data sources, and a need for in-depth knowledge to truly excel in their reporting. This session will provide a primer on how to build data-specific sources and contacts (including a tipsheet with some of this information for a range of beats), how to get your footing in a topic that's brand new, and how to emerge as an expert in your beat.",
     "session_type": "Panel",
     "track": "",
     "start_time": "2025-03-06T20:15:00Z",
@@ -2680,7 +3245,67 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 3008,
+    "session_title": "Master the power of mapping with QGIS",
+    "canceled": false,
+    "description": "Mapping is a powerful tool to find patterns in data that can only be explored on a map. This session will give you the basics for doing mapping with the open-source tool QGIS.  You'll learn how to build thematic maps, how to bring outside data into QGIS and connect it to your map and how to combine data in a map to look at geographic relationships in your data.\nThis class is good for those with solid spreadsheet skills ready to move into mapping. Laptops will be provided.",
+    "session_type": "Pre-registration - Hands-on",
+    "track": "Data viz",
+    "start_time": "2025-03-06T20:15:00Z",
+    "end_time": "2025-03-06T23:45:00Z",
+    "duration_mins": 210,
+    "duration_formatted": "3h 30m",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "Jennifer",
+        "last": "LaFleur",
+        "affiliation": "UC Berkeley",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "Charles",
+        "last": "Minshew",
+        "affiliation": "The Atlanta Journal-Constitution",
+        "bio": "Charles Minshew is the data storytelling editor for The Atlanta Journal-Constitution, helping journalists tell stories with data and digital tools. Charles is the former director of data services for IRE. In 2012, Charles was on the staff of The Denver Post that won a Pulitzer Prize for Breaking News for coverage of a shooting at a theater in Aurora, Colorado.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/charlesminshew"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/charlesminshew"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://linkedin.com/in/CharlesMinshew"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/charlesminshew.bsky.social"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Deer Lake"
     },
     "day": "Thursday"
   },
@@ -2707,8 +3332,21 @@
         "first": "Shreya",
         "last": "Vuttaluru",
         "affiliation": "Tampa Bay Times",
-        "bio": "",
-        "social": []
+        "bio": "Shreya Vuttaluru is the investigative data reporter at the Tampa Bay Times. Her work has appeared in the Associated Press, The Washington Post, The Baltimore Banner and the Dallas Morning News. She likes accountability stories, and also maps.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/shreyavut"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/shreyavut"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/shreyavuttaluru/"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -2751,7 +3389,34 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
+    },
+    "day": "Thursday"
+  },
+  {
+    "session_id": 2010,
+    "session_title": "What to do when the data doesn't exist",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "",
+    "start_time": "2025-03-06T20:15:00Z",
+    "end_time": "2025-03-06T21:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Thursday"
   },
@@ -2773,12 +3438,27 @@
     "recorded": true,
     "audio_recording_link": "",
     "skill_level": "",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Jodie",
+        "last": "Fleischer",
+        "affiliation": "Cox Media Group",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "A.J.",
+        "last": "Lagoe",
+        "affiliation": "KARE",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Thursday"
   },
@@ -2885,7 +3565,7 @@
     "session_title": "Media lawyer Q&A",
     "canceled": false,
     "description": "",
-    "session_type": "Hands-on",
+    "session_type": "Panel",
     "track": "",
     "start_time": "2025-03-06T21:30:00Z",
     "end_time": "2025-03-06T22:30:00Z",
@@ -2917,9 +3597,9 @@
   },
   {
     "session_id": 2094,
-    "session_title": "Spatial analysis in R: 202",
+    "session_title": "Spatial analysis in R: 201",
     "canceled": false,
-    "description": "",
+    "description": "Take your spatial skills up a notch by learning to use image-based data derived from satellite observations. In this session, you’ll discover how to navigate tricky filetypes like netCDF and TIF, all within the comfort of RStudio. Learn how to extract decades of real-time measurements from variables like ocean heat, temperature, land use, air pollution and more. By the end, you’ll have the tools to join satellite measurements with traditional shapefiles.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-06T21:30:00Z",
@@ -2932,14 +3612,27 @@
     "sponsor": "",
     "recorded": false,
     "audio_recording_link": "",
-    "skill_level": "",
+    "skill_level": "Intermediate",
     "speakers": [
       {
         "first": "Shreya",
         "last": "Vuttaluru",
         "affiliation": "Tampa Bay Times",
-        "bio": "",
-        "social": []
+        "bio": "Shreya Vuttaluru is the investigative data reporter at the Tampa Bay Times. Her work has appeared in the Associated Press, The Washington Post, The Baltimore Banner and the Dallas Morning News. She likes accountability stories, and also maps.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/shreyavut"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/shreyavut"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/shreyavuttaluru/"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -2974,8 +3667,17 @@
         "first": "Sandhya",
         "last": "Kambhampati",
         "affiliation": "Los Angeles Times",
-        "bio": "",
-        "social": []
+        "bio": "Sandhya Kambhampati is a data reporter on the Los Angeles Times data desk, where she specializes in demographic and statistical analyses. She previously worked at the Chronicle of Higher Education, Correctiv and ProPublica Illinois. She is an adjunct at the Annenberg School at University of Southern California.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/sandhyak.bsky.social"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/sandhyakambhampati/"
+          }
+        ]
       },
       {
         "first": "Paul",
@@ -3017,7 +3719,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Thursday"
   },
@@ -3052,7 +3754,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Thursday"
   },
@@ -3060,7 +3762,7 @@
     "session_id": 1039,
     "session_title": "Which coding language to use and why",
     "canceled": false,
-    "description": "",
+    "description": "Journalists may use a variety of coding languages for data investigations or for news application development. Each project and each newsroom has a unique tech stack. You might be wondering: which ones should I try? Our panelists will discuss projects they’ve pursued with code, which languages they used, and why.",
     "session_type": "Commons",
     "track": "",
     "start_time": "2025-03-06T21:30:00Z",
@@ -3079,8 +3781,17 @@
         "first": "Carla",
         "last": "Astudillo",
         "affiliation": "The Texas Tribune",
-        "bio": "",
-        "social": []
+        "bio": "Carla Astudillo is a senior data visuals developer and journalist with a focus on elections and political data. Before joining the Tribune in 2019, she was a data and interactive visuals journalist at NJ.com and The Star-Ledger in New Jersey. She earned a master’s degree from the Craig Newmark Graduate School of Journalism at the City University of New York and a bachelor’s degree from the University of Florida. ",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/carla-astudi.bsky.social"
+          },
+          {
+            "label": "X",
+            "url": "https://x.com/carla_astudi"
+          }
+        ]
       },
       {
         "first": "Tazbia",
@@ -3125,42 +3836,20 @@
         "first": "Kai",
         "last": "Teoh",
         "affiliation": "The Dallas Morning News",
-        "bio": "",
-        "social": []
+        "bio": "Kai Teoh leads a team of journalists responsible for The Dallas Morning News' data reporting, interactive projects, illustrations and graphics. He's passionate about advocating for immigrant journalists and enjoys mentoring data journalism students. With a career spanning different roles in the newsroom, he's committed to empowering his colleagues and elevating their work through collaboration.",
+        "social": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/kaiteoh/"
+          }
+        ]
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
-    },
-    "day": "Thursday"
-  },
-  {
-    "session_id": 2072,
-    "session_title": "Beginner track: How to request data and documents: FOI",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
-    "track": "Beginner",
-    "start_time": "2025-03-06T22:45:00Z",
-    "end_time": "2025-03-06T23:45:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Thursday"
   },
@@ -3182,12 +3871,20 @@
     "recorded": true,
     "audio_recording_link": "",
     "skill_level": "",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Brant",
+        "last": "Houston",
+        "affiliation": "University of Illinois",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Thursday"
   },
@@ -3238,6 +3935,37 @@
         ]
       },
       {
+        "first": "Andrew",
+        "last": "Ford",
+        "affiliation": "USA Today / Gannett",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "Josh",
+        "last": "Hinkle",
+        "affiliation": "KXAN",
+        "bio": "Josh Hinkle is KXAN’s director of investigations and innovation, leading the station’s duPont and IRE Award-winning investigative team on multiple platforms. He also leads KXAN’s political coverage as executive producer and host of “State of Texas,” a weekly statewide program focused on the Texas Legislature and elections. In 2021, he was elected to the IRE Board of Directors and currently serves as its vice president.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/hinklej"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/hinklej/"
+          },
+          {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/hinklej002/"
+          },
+          {
+            "label": "BlueSky",
+            "url": "https://bsky.app/profile/hinklej.bsky.social"
+          }
+        ]
+      },
+      {
         "first": "Cynthia",
         "last": "Tu",
         "affiliation": "Sahan Journal",
@@ -3249,7 +3977,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Thursday"
   },
@@ -3299,10 +4027,46 @@
     "day": "Thursday"
   },
   {
+    "session_id": 3016,
+    "session_title": "Finding the story: Using DNS search for investigative journalism (repeat)",
+    "canceled": false,
+    "description": "Every online interaction begins with a lookup in the Domain Name System (DNS), the backbone of the Internet. As a result, there are digital footprints left behind in the DNS. With the demise of Whois, investigative reporters are looking for new tools to uncover these footprints. Learn how to use DNSDB Scout, a tool to query DNSDB, a historical passive DNS database, to discover previously unknown online connections and gain new information to advance your  ongoing and breaking news investigations. \n\nBasic knowledge of the Domain Name System (DNS) is helpful, but not required. Attendees will need to bring their own laptop (no tablets) to participate in this class.",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-06T22:45:00Z",
+    "end_time": "2025-03-06T23:45:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Intermediate",
+    "speakers": [
+      {
+        "first": "Kelly",
+        "last": "Molloy",
+        "affiliation": "Domain Tools",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Birch Lake/Maple Lake"
+    },
+    "day": "Thursday"
+  },
+  {
     "session_id": 1012,
     "session_title": "Making publishable graphics in R Studio",
     "canceled": false,
-    "description": "",
+    "description": "Explore different graphics types and styling you can do in R Studio and then export into Adobe Illustrator for publication",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-06T22:45:00Z",
@@ -3354,6 +4118,22 @@
     "skill_level": "",
     "speakers": [
       {
+        "first": "Jasmine",
+        "last": "Han",
+        "affiliation": "Informa TechTarget (Industry Dive)",
+        "bio": "Jasmine Ye Han is a news graphics developer at Informa TechTarget (Industry Dive), where she tells business news stories with data analysis and visualizations. Previously she was a data journalism reporter at Bloomberg Industry Group. Jasmine is an alumnus of the Missouri School of Journalism and NICAR data library. She moved to the U.S. from China in 2014. ",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/JasmineHanYe"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jasmine-ye-han-08122380/"
+          }
+        ]
+      },
+      {
         "first": "Khushboo",
         "last": "Rathaore",
         "affiliation": "Wisconsin Watch",
@@ -3371,9 +4151,9 @@
   },
   {
     "session_id": 2095,
-    "session_title": "Spatial analysis in R: 303",
+    "session_title": "Spatial analysis in R: 301",
     "canceled": false,
-    "description": "",
+    "description": "Data that lacks a shared column for direct joins can often still be connected through maps. But common geographies like census tracts and precincts rarely align perfectly. Despite these challenges, it’s still possible to estimate how votes shifted across neighborhoods or calculate statistical relationships using Census data. This process is called interpolation — learn how to translate data from one map to another and bridge geographic gaps in their data analysis.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-06T22:45:00Z",
@@ -3386,14 +4166,27 @@
     "sponsor": "",
     "recorded": false,
     "audio_recording_link": "",
-    "skill_level": "",
+    "skill_level": "Intermediate",
     "speakers": [
       {
         "first": "Shreya",
         "last": "Vuttaluru",
         "affiliation": "Tampa Bay Times",
-        "bio": "",
-        "social": []
+        "bio": "Shreya Vuttaluru is the investigative data reporter at the Tampa Bay Times. Her work has appeared in the Associated Press, The Washington Post, The Baltimore Banner and the Dallas Morning News. She likes accountability stories, and also maps.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/shreyavut"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/shreyavut"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/shreyavuttaluru/"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -3404,41 +4197,6 @@
       "room_name": "Spring Park Bay"
     },
     "day": "Thursday"
-  },
-  {
-    "session_id": 2073,
-    "session_title": "Beginner track: Feed the beast: Integrating data nuggets on deadline",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
-    "track": "Beginner",
-    "start_time": "2025-03-07T15:00:00Z",
-    "end_time": "2025-03-07T16:00:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [
-      {
-        "first": "Stephen",
-        "last": "Stock",
-        "affiliation": "WVUE",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 4"
-    },
-    "day": "Friday"
   },
   {
     "session_id": 1037,
@@ -3463,15 +4221,20 @@
         "first": "Sean",
         "last": "McMinn",
         "affiliation": "Politico",
-        "bio": "",
-        "social": []
+        "bio": "Sean McMinn is the data/graphics editor at Politico, where he manages a team of data and visual journalists who cover political news. He has worked in data, visual and investigative newsroom roles for over a decade, mostly covering federal politics and policy.",
+        "social": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/shmcminn"
+          }
+        ]
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Friday"
   },
@@ -3539,7 +4302,7 @@
     "session_id": 1056,
     "session_title": "How to use CensusDis, the friendliest Python API for U.S. Census data",
     "canceled": false,
-    "description": "",
+    "description": "CensusDis is a simple Python package for accessing the US Census API. Unlike competing packages, it gives access to almost everything the Census Bureau produces, including American Community Survey, the Current Population Survey, the Supplemental Poverty Measure and so on. It even has methods for downloading geographic resources like Tiger Shapefiles. My favorite part is that it has methods for quickly exploring which datasets and tables are available, so that you know what exists before you configure a whole script to try and download it. The greatest feature, however, is that it can download your census data and output a choropleth of any geography in a single function call. It's made my work with the Census faster, more reliable and more enjoyable.",
     "session_type": "Hands-on",
     "track": "Census",
     "start_time": "2025-03-07T15:00:00Z",
@@ -3619,7 +4382,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Friday"
   },
@@ -3723,8 +4486,41 @@
         "first": "Yoohyun",
         "last": "Jung",
         "affiliation": "Boston Globe",
-        "bio": "",
-        "social": []
+        "bio": "Yoohyun Jung is the data editor at the Boston Globe, leading a team of computational journalists. She was previously the deputy data editor and data reporter at the San Francisco Chronicle. Jung began her career in Arizona as a cops reporter, then developed as a data journalist with the help of IRE and NICAR.",
+        "social": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/yoohyun-jung-67175a66/"
+          }
+        ]
+      },
+      {
+        "first": "Allie",
+        "last": "Kanik",
+        "affiliation": "Houston Chronicle / San Antonio Express-News",
+        "bio": "Alexandra Kanik is the data editor for Hearst Texas, which includes the Houston Chronicle and the San Antonio Express-News. She leads a team of reporters that produces unique analysis, interactive charts, custom graphics and reader-focused storytelling. She joined Hearst in May '21 after a decade in nonprofit news at organizations including Louisville Public Media and PublicSource. She holds a bachelor's degree in graphic design from MICA.",
+        "social": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/akanik"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/alexandra-kanik-918a891b/"
+          }
+        ]
+      },
+      {
+        "first": "Dan",
+        "last": "Kopf",
+        "affiliation": "San Francisco Chronicle",
+        "bio": "Dan Kopf is the data editor for The Chronicle. Previously, Kopf was the data editor at Quartz, where he also covered economics and demographics.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/dkopf/"
+          }
+        ]
       },
       {
         "first": "MaryJo",
@@ -3747,34 +4543,43 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Friday"
   },
   {
-    "session_id": 2084,
-    "session_title": "Covering college sports when the players are pros",
+    "session_id": 3017,
+    "session_title": "What's new in the world of LLMs",
     "canceled": false,
     "description": "",
-    "session_type": "Panel",
-    "track": "",
-    "start_time": "2025-03-07T16:15:00Z",
-    "end_time": "2025-03-07T17:15:00Z",
+    "session_type": "Special",
+    "track": "AI",
+    "start_time": "2025-03-07T15:00:00Z",
+    "end_time": "2025-03-07T16:00:00Z",
     "duration_mins": 60,
     "duration_formatted": "1h",
     "evergreen": false,
     "cost": "",
     "prereg_link": "",
     "sponsor": "",
-    "recorded": true,
+    "recorded": false,
     "audio_recording_link": "",
     "skill_level": "",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Simon",
+        "last": "Willison",
+        "affiliation": "Datasette",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 2"
+      "level": "eighth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Wayzata Bay"
     },
     "day": "Friday"
   },
@@ -3831,7 +4636,7 @@
     "sponsor": "",
     "recorded": true,
     "audio_recording_link": "",
-    "skill_level": "",
+    "skill_level": "Beginner",
     "speakers": [
       {
         "first": "Jennifer",
@@ -3852,7 +4657,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Friday"
   },
@@ -3924,6 +4729,22 @@
         "affiliation": "The New York Times",
         "bio": "Alex works on the Election Analytics team at The New York Times, which produces the statistical models behind the Needle, conducts The New York Times/Siena College Poll and tells analytical, visual stories about how people vote. His job blends computer-assisted reporting with traditional techniques to help readers understand electoral trends and outcomes. ",
         "social": []
+      },
+      {
+        "first": "Jacob",
+        "last": "Meschke",
+        "affiliation": "The New York Times",
+        "bio": "Jacob Meschke is a editor on the newsroom development and support team at The New York Times, a multidisciplinary team of journalists that works with desks across the Times newsroom to introduce new tools and initiatives. Much of his work focuses on audience data analysis and engagement and data reporting techniques.",
+        "social": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jacobmeschke/"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/jakem7796"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -3980,7 +4801,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Friday"
   },
@@ -4043,6 +4864,13 @@
         "first": "Khushboo",
         "last": "Rathaore",
         "affiliation": "Wisconsin Watch",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "K. Sophie",
+        "last": "Will",
+        "affiliation": "Bloomberg News",
         "bio": "",
         "social": []
       }
@@ -4115,7 +4943,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Friday"
   },
@@ -4182,8 +5010,21 @@
         "first": "Dhrumil",
         "last": "Mehta",
         "affiliation": "Columbia University",
-        "bio": "",
-        "social": []
+        "bio": "Dhrumil Mehta is an associate professor who teaches data journalism at the Columbia University Graduate School of Journalism and assistant director of the Tow Center for Digital Journalism. He is also a visiting professor at the Harvard Kennedy School and was formerly a political journalist at FiveThirtyEight.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/datadhrumil"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/dmil"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://linkedin.com/in/dhrumilmehta"
+          }
+        ]
       },
       {
         "first": "Alex",
@@ -4213,7 +5054,42 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 2084,
+    "session_title": "Covering college sports when the players are pros",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "",
+    "start_time": "2025-03-07T17:30:00Z",
+    "end_time": "2025-03-07T18:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [
+      {
+        "first": "Jodi",
+        "last": "Upton",
+        "affiliation": "Syracuse University",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Friday"
   },
@@ -4287,16 +5163,33 @@
       {
         "first": "Justin",
         "last": "Myers",
-        "affiliation": "Chicago Sun-Times",
-        "bio": "",
-        "social": []
+        "affiliation": "Chicago Public Media",
+        "bio": "Justin Myers (any pronouns) is a Chicago-based data journalist, visual journalist, developer and parent. They joined the Chicago Sun-Times in fall 2023 as its interactives editor. Before that, they were the data editor for The Associated Press, where they supported both data journalists across the U.S. and reporting projects around the world. They enjoy making things out of flour, yarn and code — but rarely at the same time.",
+        "social": [
+          {
+            "label": "Mastodon",
+            "url": "https://mastodon.sdf.org/@myersjustinc"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/justinmyers.net"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/myersjustinc/"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/myersjustinc"
+          }
+        ]
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Friday"
   },
@@ -4399,16 +5292,25 @@
       {
         "first": "Pri",
         "last": "Bengani",
-        "affiliation": "Tow Center for Digital Journalism at Columbia Journalism School ",
-        "bio": "",
-        "social": []
+        "affiliation": "Bloomberg",
+        "bio": "Priyanjana Bengani is on the data desk at Bloomberg, where she uses data science approaches to tackle news projects. She was previously a senior research fellow at Columbia University’s Tow Center.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/acookiecrumbles.bsky.social"
+          },
+          {
+            "label": "Mastodon",
+            "url": "https://indieweb.social/@acookiecrumbles"
+          }
+        ]
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Friday"
   },
@@ -4441,9 +5343,9 @@
   },
   {
     "session_id": 1065,
-    "session_title": "Parameterized reporting in R",
+    "session_title": "dRy - don’t repeat yourself, in R",
     "canceled": "",
-    "description": "",
+    "description": "You may have heard of the DRY principle in coding: don’t repeat yourself. But how do you actually do it? Join us as we walk you through iteration techniques in R to make your data analysis more efficient including how to import multiple files at once, creating unique functions and generating parameterized reports. \n\nThis session is good for: basic R users who want to ramp up their data analysis skills.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-07T17:30:00Z",
@@ -4459,11 +5361,52 @@
     "skill_level": "Intermediate",
     "speakers": [
       {
+        "first": "Karina",
+        "last": "Kumar",
+        "affiliation": "University of Texas at Austin",
+        "bio": "Karina Kumar is a senior journalism student at the University of Texas at Austin with a certificate in elements of computing. She has worked at The Daily Texan, Texas Parks and Wildlife Magazine and will be working at the Minnesota Star Tribune this summer as a data intern. Under Professor Christian McDonald, now as the data fellow editor, she has worked on projects with campaign finance reports, school attendance records, prison data and much more.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/KarinaKumar03"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/karina-kumar"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/karina-kumar-9355b4237/"
+          }
+        ]
+      },
+      {
         "first": "Christian",
         "last": "McDonald",
         "affiliation": "University of Texas at Austin",
-        "bio": "",
-        "social": []
+        "bio": "Christian McDonald is an associate professor of practice and the innovation director in the school of journalism and media at the University of Texas at Austin, where he teaches classes about data, coding and news products. His last newsroom position was as data and online projects editor at the Austin American-Statesman. In his 28 years in journalism, he also worked at the Atlanta Journal-Constitution, East Valley (Arizona) Tribune and the Longview (Texas) News-Journal.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/crit.bsky.social"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/critmcdonald"
+          },
+          {
+            "label": "GitHub (org)",
+            "url": "https://github.com/utdata"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/critmcdonald"
+          },
+          {
+            "label": "Mastodon",
+            "url": "https://newsie.social/@crit"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -4479,7 +5422,7 @@
     "session_id": 1175,
     "session_title": "AI starter pack: JavaScript",
     "canceled": false,
-    "description": "",
+    "description": "Wondering how to leverage JavaScript for AI tasks? In this session, you'll code your way through an example project and get a crash course on the libraries, techniques and learning resources available for JavaScript users who want to `npm init` their first AI project.\n\nThis session is good for people who feel comfortable writing JavaScript.",
     "session_type": "Hands-on",
     "track": "AI",
     "start_time": "2025-03-07T20:15:00Z",
@@ -4508,6 +5451,104 @@
       "os": "Mac",
       "recorded": false,
       "room_name": "Excelsior Bay"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 2099,
+    "session_title": "De-mystifying cryptocurrency data: How to find stories on ransoms, scams and betting markets",
+    "canceled": false,
+    "description": "Trump is back, and he's bringing crypto with him. With crypto’s rally comes a new boom of scams and ransoms. Two experienced data journalists share stories, tips and techniques from years of reporting on crypto's underbelly: ransoms, sanctions violations, romance scams and betting markets using blockchain and other cryptocurrency data.",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-07T20:15:00Z",
+    "end_time": "2025-03-08T16:00:00Z",
+    "duration_mins": 420,
+    "duration_formatted": "7h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "Jeremy",
+        "last": "Merrill",
+        "affiliation": "The Washington Post",
+        "bio": "Jeremy B. Merrill is a data reporter at The Washington Post. He likes natural language processing and bad jokes. He lives in Atlanta.",
+        "social": []
+      },
+      {
+        "first": "Caitlin",
+        "last": "Ostroff",
+        "affiliation": "The Wall Street Journal",
+        "bio": "Caitlin Ostroff is a data reporter for The Wall Street Journal in New York, where she covers crypto, finance and politics. She's broken scoops and chronicled turmoil at crypto exchanges FTX and Binance. She was previously based in London for The Journal.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/ceostroff"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/ceostroff.bsky.social"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ceostroff"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/caitlin-ostroff-237402b9/"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Pine Lake/Cedar Lake"
+    },
+    "multi_day": [
+      {
+        "start_time": "2025-03-07T20:15:00Z",
+        "end_time": "2025-03-07T21:15:00Z",
+        "duration_mins": 60
+      },
+      {
+        "start_time": "2025-03-08T15:00:00Z",
+        "end_time": "2025-03-08T16:00:00Z",
+        "duration_mins": 60
+      }
+    ]
+  },
+  {
+    "session_id": 1116,
+    "session_title": "Do you really need a map? How to make the most of your data viz",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "",
+    "start_time": "2025-03-07T20:15:00Z",
+    "end_time": "2025-03-07T21:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Friday"
   },
@@ -4557,53 +5598,10 @@
     "day": "Friday"
   },
   {
-    "session_id": 1105,
-    "session_title": "Finding the story: Trade data",
-    "canceled": false,
-    "description": "",
-    "session_type": "Hands-on",
-    "track": "Census",
-    "start_time": "2025-03-07T20:15:00Z",
-    "end_time": "2025-03-07T21:15:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "Beginner",
-    "speakers": [
-      {
-        "first": "Paroma",
-        "last": "Soni",
-        "affiliation": "Politico",
-        "bio": "",
-        "social": []
-      },
-      {
-        "first": "Taylor",
-        "last": "Thomas",
-        "affiliation": "Politico",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "os": "BYO",
-      "recorded": false,
-      "room_name": "Birch Lake/Maple Lake"
-    },
-    "day": "Friday"
-  },
-  {
     "session_id": 1054,
     "session_title": "Finding the story: Wildfire data",
     "canceled": false,
-    "description": "",
+    "description": "Using data from the National Interagency Fire Center, we’ll demonstrate how to clean it using R and create a basic interactive map with MapLibre, an open-source mapping library. Basic knowledge of R and HTML/CSS/Javascript is recommended.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-07T20:15:00Z",
@@ -4616,7 +5614,7 @@
     "sponsor": "",
     "recorded": false,
     "audio_recording_link": "",
-    "skill_level": "Beginner",
+    "skill_level": "Intermediate",
     "speakers": [
       {
         "first": "Taylor",
@@ -4662,11 +5660,11 @@
   },
   {
     "session_id": 2080,
-    "session_title": "First Athena Query: How to analyze hundreds of million records in seconds with Amazon Web Services and SQL",
+    "session_title": "First Athena Query: How to analyze hundreds of millions of records in seconds with Amazon Web Services and SQL",
     "canceled": false,
-    "description": "",
+    "description": "We’ve all been there. Excel can’t hang. Your dataframe locks up. And that damn SQL query has been running for two days now. There’s no way around it. This database is just too big for your laptop to handle. \n\nYou don’t want to give up, but we all know what will happen if you ask your boss for a new computer.\n\nAttend this rapid-fire session to see the solution: Amazon Athena. Katlyn Alo and Ben Welsh will show you how newsroom nerds use this powerful tool to rip through millions of records with ease. We’ll demonstrate every step in the process and prepare you to slay any dataset.",
     "session_type": "Demo",
-    "track": "",
+    "track": "Elections",
     "start_time": "2025-03-07T20:15:00Z",
     "end_time": "2025-03-07T21:15:00Z",
     "duration_mins": 60,
@@ -4682,8 +5680,8 @@
       {
         "first": "Katlyn",
         "last": "Alo",
-        "affiliation": "Independent journalist",
-        "bio": "",
+        "affiliation": "The Washington Post",
+        "bio": "Katlyn builds tools to help reporters take on ambitious stories.",
         "social": []
       },
       {
@@ -4700,6 +5698,41 @@
       "os": "BYO",
       "recorded": false,
       "room_name": "Wayzata Bay"
+    },
+    "day": "Friday"
+  },
+  {
+    "session_id": 3007,
+    "session_title": "Get help editing and improving your basic data visualizations",
+    "canceled": false,
+    "description": "More data journalists are using easy tools to make data visualizations to aid storytelling, but especially on small teams, you may not have a visual editor to identify ways to make them better. Bring us your charts and graphs that you feel like could be better but aren't sure how. We'll give live and unscripted critique and constructive suggestions to take your charts from \"fine\" to \"wow!\"",
+    "session_type": "Commons",
+    "track": "Data viz",
+    "start_time": "2025-03-07T20:15:00Z",
+    "end_time": "2025-03-07T21:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "CJ",
+        "last": "Sinner",
+        "affiliation": "Star Tribune (Minnesota)",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "sixth",
+      "recorded": false,
+      "room_name": "Minnesota"
     },
     "day": "Friday"
   },
@@ -4734,7 +5767,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Friday"
   },
@@ -4775,38 +5808,11 @@
     "day": "Friday"
   },
   {
-    "session_id": 2075,
-    "session_title": "Beginner track: Creating meatier stories: Sourcing, documents and other tools for start investigative reporting",
+    "session_id": 2091,
+    "session_title": "Data scouting: A heuristic to plan data scraping and collection",
     "canceled": false,
     "description": "",
-    "session_type": "Panel",
-    "track": "Beginner",
-    "start_time": "2025-03-07T21:30:00Z",
-    "end_time": "2025-03-07T22:30:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 4"
-    },
-    "day": "Friday"
-  },
-  {
-    "session_id": 1116,
-    "session_title": "Do you really need a map? How to make the most of your data viz",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
+    "session_type": "Commons",
     "track": "",
     "start_time": "2025-03-07T21:30:00Z",
     "end_time": "2025-03-07T22:30:00Z",
@@ -4816,15 +5822,23 @@
     "cost": "",
     "prereg_link": "",
     "sponsor": "",
-    "recorded": true,
+    "recorded": false,
     "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [],
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "Alison",
+        "last": "Benjamin",
+        "affiliation": "BBC News",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 3"
+      "level": "sixth",
+      "recorded": false,
+      "room_name": "Minnesota"
     },
     "day": "Friday"
   },
@@ -4832,7 +5846,7 @@
     "session_id": 1036,
     "session_title": "Finding needles in haystacks with fuzzy matching",
     "canceled": false,
-    "description": "",
+    "description": "Fuzzy matching is a process for linking up records that are similar but not quite the same. It is often an important part of data-driven investigations as a way to identify connections between public figures, key people and companies that are relevant to a story.\n\nMax Harlow, who developed the CSV Match command line tool, will cover how fuzzy matching typically fits into the investigative process, with story examples, as well as show you how to perform different types of fuzzy match on some real datasets, including the pros and cons of each.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-07T21:30:00Z",
@@ -4878,6 +5892,49 @@
     "day": "Friday"
   },
   {
+    "session_id": 1105,
+    "session_title": "Finding the story: Trade data",
+    "canceled": false,
+    "description": "USA Trade, part of the U.S. Census, is an incredible tool for data journalists across most beats, especially those relating to global economics, trade, tech, and foreign policy. Whether it’s a story on manufacturing or supply chains, or tariffs and their impact on certain goods and trade flows – USA Trade has very comprehensive, district-level data that can help frame larger trends and analysis. The website itself, however, is not the most intuitive to figure out. This session will demonstrate how to use USA Trade and discuss some ways to understand and use the data in your reporting. You will need to make a free account on https://usatrade.census.gov/ to follow along. This session is good for everyone, especially for those to whom U.S. import/export data would be useful. No data experience is necessary! Attendees will need to bring their own laptops (preferably no tablets) for the training.",
+    "session_type": "Hands-on",
+    "track": "Census",
+    "start_time": "2025-03-07T21:30:00Z",
+    "end_time": "2025-03-07T22:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "Paroma",
+        "last": "Soni",
+        "affiliation": "Politico",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "Taylor",
+        "last": "Thomas",
+        "affiliation": "Politico",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Birch Lake/Maple Lake"
+    },
+    "day": "Friday"
+  },
+  {
     "session_id": 1061,
     "session_title": "How to approach an investigative data question",
     "canceled": false,
@@ -4913,6 +5970,18 @@
         ]
       },
       {
+        "first": "Veronica",
+        "last": "Penney",
+        "affiliation": "Science",
+        "bio": "Veronica Penney is a graphics editor at Science, where she analyzes data to build visualizations and maps for the newsroom. She specializes in data reporting, climate change and cartography, and she previously worked as an investigative data reporter for Colorado Public Radio and as a climate and graphics reporter for The New York Times and The Washington Post.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/veronicapenney.bsky.social"
+          }
+        ]
+      },
+      {
         "first": "Emily",
         "last": "Zentner",
         "affiliation": "The California Newsroom",
@@ -4941,7 +6010,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Friday"
   },
@@ -4949,7 +6018,7 @@
     "session_id": 1002,
     "session_title": "The 411 on 311: How to use calls-for-service data in your daily reporting",
     "canceled": false,
-    "description": "",
+    "description": "311 data, or citizen complaint data, can help you feed the beast while feeding into investigations. In this session, we’ll do an example analysis using Python in a Google Co-Lab. Be sure to log in to a Google account before class.\nThis session is good for: People comfortable with Python and Jupyter notebook. Taking or having taken \"introduction to Python for data analysis\" or \"first Python notebook\" is strongly recommended.",
     "session_type": "Hands-on",
     "track": "Public records",
     "start_time": "2025-03-07T21:30:00Z",
@@ -4983,6 +6052,13 @@
             "url": "https://linkedin.com/in/jayohday"
           }
         ]
+      },
+      {
+        "first": "Casey ",
+        "last": "Toner",
+        "affiliation": "BGA/Illinois Answers Project",
+        "bio": "",
+        "social": []
       }
     ],
     "tipsheets": [],
@@ -5072,48 +6148,6 @@
     "day": "Friday"
   },
   {
-    "session_id": 2076,
-    "session_title": "Beginner track: Tools to save you time",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
-    "track": "Beginner",
-    "start_time": "2025-03-08T15:00:00Z",
-    "end_time": "2025-03-08T16:00:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [
-      {
-        "first": "Tyler",
-        "last": "Dukes",
-        "affiliation": "McClatchy Media",
-        "bio": "",
-        "social": []
-      },
-      {
-        "first": "Cynthia",
-        "last": "Tu",
-        "affiliation": "Sahan Journal",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 2"
-    },
-    "day": "Saturday"
-  },
-  {
     "session_id": 1047,
     "session_title": "Command-line data analysis with VisiData",
     "canceled": false,
@@ -5155,66 +6189,6 @@
       "os": "Mac",
       "recorded": false,
       "room_name": "Excelsior Bay"
-    },
-    "day": "Saturday"
-  },
-  {
-    "session_id": 2099,
-    "session_title": "De-mystifying cryptocurrency data: How to find stories on ransoms, scams and betting markets",
-    "canceled": false,
-    "description": "Trump is back, and he's bringing crypto with him. With crypto’s rally comes a new boom of scams and ransoms. Two experienced data journalists share stories, tips and techniques from years of reporting on crypto's underbelly: ransoms, sanctions violations, romance scams and betting markets using blockchain and other cryptocurrency data.",
-    "session_type": "Hands-on",
-    "track": "",
-    "start_time": "2025-03-08T15:00:00Z",
-    "end_time": "2025-03-08T16:00:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "Beginner",
-    "speakers": [
-      {
-        "first": "Jeremy",
-        "last": "Merrill",
-        "affiliation": "The Washington Post",
-        "bio": "Jeremy B. Merrill is a data reporter at The Washington Post. He likes natural language processing and bad jokes. He lives in Atlanta.",
-        "social": []
-      },
-      {
-        "first": "Caitlin",
-        "last": "Ostroff",
-        "affiliation": "The Wall Street Journal",
-        "bio": "Caitlin Ostroff is a data reporter for The Wall Street Journal in New York, where she covers crypto, finance and politics. She's broken scoops and chronicled turmoil at crypto exchanges FTX and Binance. She was previously based in London for The Journal.",
-        "social": [
-          {
-            "label": "X",
-            "url": "https://x.com/ceostroff"
-          },
-          {
-            "label": "Bluesky",
-            "url": "https://bsky.app/profile/ceostroff.bsky.social"
-          },
-          {
-            "label": "GitHub",
-            "url": "https://github.com/ceostroff"
-          },
-          {
-            "label": "LinkedIn",
-            "url": "https://www.linkedin.com/in/caitlin-ostroff-237402b9/"
-          }
-        ]
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "eighth",
-      "os": "PC",
-      "recorded": false,
-      "room_name": "Spring Park Bay"
     },
     "day": "Saturday"
   },
@@ -5281,7 +6255,27 @@
       {
         "first": "Ben",
         "last": "Camacho",
-        "affiliation": "Independent journalist",
+        "affiliation": "The Southlander",
+        "bio": "Ben Camacho is an award-winning investigative journalist and documentary photographer. His work focuses on state-sanctioned violence and the communities impacted by it. He was sued twice by the city of Los Angeles in a failed effort to censor public records. He is an organizer at IWW's Freelance Journalists Union. He has spoken at Yale, USC and other institutions about press freedom. He enjoys street photography, shows and breathing clean air.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/bencamach0"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/bencamach0.bsky.social"
+          },
+          {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/bencamach0/"
+          }
+        ]
+      },
+      {
+        "first": "Olivia",
+        "last": "Martin",
+        "affiliation": "The New York Times",
         "bio": "",
         "social": []
       },
@@ -5318,7 +6312,71 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
+    },
+    "day": "Saturday"
+  },
+  {
+    "session_id": 2009,
+    "session_title": "Fun with shapes: Scripted mapping in R or Python *pre-registered attendees only",
+    "canceled": false,
+    "description": "Let's face it, QGIS is the Excel of geospatial analysis. Sure, doing simple mapping in it and ArcGIS is a blast, but executing complex, reproducible joins and measurements can be a real drag. Taking a more scripted approach is way less of a buzzkill, especially when you need to revisit your earlier work or share with others.\n\nWhether you choose R or Python, follow along from mapping basics to more complex techniques that will make your next geospatial analysis a walk in the park. Cut loose, write some replicable code and have fun with shapes!\n\nPreregistration is required and seating is limited. To get the most out of this session, you should have a working knowledge of both GIS/mapping techniques and some experience with either Python or R.",
+    "session_type": "Pre-registration - Hands-on",
+    "track": "",
+    "start_time": "2025-03-08T15:00:00Z",
+    "end_time": "2025-03-08T18:30:00Z",
+    "duration_mins": 210,
+    "duration_formatted": "3h 30m",
+    "evergreen": false,
+    "cost": 40,
+    "prereg_link": "https://www.ire.org/product/nicar25-fun-with-shapes-scripted-mapping-in-r-or-python/",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Intermediate",
+    "speakers": [
+      {
+        "first": "Allie",
+        "last": "Kanik",
+        "affiliation": "Houston Chronicle / San Antonio Express-News",
+        "bio": "Alexandra Kanik is the data editor for Hearst Texas, which includes the Houston Chronicle and the San Antonio Express-News. She leads a team of reporters that produces unique analysis, interactive charts, custom graphics and reader-focused storytelling. She joined Hearst in May '21 after a decade in nonprofit news at organizations including Louisville Public Media and PublicSource. She holds a bachelor's degree in graphic design from MICA.",
+        "social": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/akanik"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/alexandra-kanik-918a891b/"
+          }
+        ]
+      },
+      {
+        "first": "Ryan",
+        "last": "Little",
+        "affiliation": "Baltimore Banner",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "Cam",
+        "last": "Rodriguez",
+        "affiliation": "The New York Times",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [
+      {
+        "label": "GitHub repo",
+        "url": "https://github.com/cjwinchester/nicar24-scraping"
+      }
+    ],
+    "room": {
+      "level": "sixth",
+      "os": "Mac",
+      "recorded": false,
+      "room_name": "St. Croix I"
     },
     "day": "Saturday"
   },
@@ -5345,8 +6403,13 @@
         "first": "Maggie",
         "last": "Mulvihill",
         "affiliation": "Boston University",
-        "bio": "",
-        "social": []
+        "bio": "Maggie Mulvihill is a veteran reporter, data journalism trainer, news entrepreneur, First Amendment advocate and attorney. Mulvihill is an associate professor of the practice in computational journalism at Boston University and a member of IRE’s Academic Task Force.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/@maggiemulvihill"
+          }
+        ]
       },
       {
         "first": "Derek",
@@ -5369,7 +6432,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Saturday"
   },
@@ -5429,6 +6492,22 @@
     "skill_level": "",
     "speakers": [
       {
+        "first": "Jasmine",
+        "last": "Han",
+        "affiliation": "Informa TechTarget (Industry Dive)",
+        "bio": "Jasmine Ye Han is a news graphics developer at Informa TechTarget (Industry Dive), where she tells business news stories with data analysis and visualizations. Previously she was a data journalism reporter at Bloomberg Industry Group. Jasmine is an alumnus of the Missouri School of Journalism and NICAR data library. She moved to the U.S. from China in 2014. ",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/JasmineHanYe"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jasmine-ye-han-08122380/"
+          }
+        ]
+      },
+      {
         "first": "Paroma",
         "last": "Soni",
         "affiliation": "Politico",
@@ -5466,14 +6545,19 @@
       {
         "first": "Michael",
         "last": "Corey",
-        "affiliation": "",
-        "bio": "",
-        "social": []
+        "affiliation": "Mapping Prejudice, University of Minnesota Libraries",
+        "bio": "Michael Corey is the geospatial, technical and data lead, and associate director, for Mapping Prejudice. Before transitioning to public history, Michael spent 20 years as a data journalist at the Star Tribune, Reveal from the Center for Investigative Reporting and the Des Moines Register. His previous work has spanned zoning and segregation, mortgage disparities, the U.S.-Mexico border fence system, human-induced earthquakes and sexual abuse in the Catholic Church.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/mikejcorey.bsky.social"
+          }
+        ]
       },
       {
         "first": "Alexia",
         "last": "Fernandez Campbell",
-        "affiliation": "",
+        "affiliation": "Bloomberg Industry Group ",
         "bio": "",
         "social": []
       },
@@ -5510,7 +6594,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Saturday"
   },
@@ -5567,7 +6651,7 @@
     "session_id": 1072,
     "session_title": "Climate change has changed natural disasters; we must change how we prepare",
     "canceled": false,
-    "description": "",
+    "description": "Wildfires and hurricanes. Excessive heat and bitter cold. Extreme weather events have become stronger, more prevalent, and more unpredictable thanks to human-caused climate change.\n \nWhile these events provide an opportunity to capture an audience's attention and explain the connection between extreme weather and climate change it isn’t always apparent how we can — whether we should — do that.\n\nThis moderated panel will combine firsthand insights from those covering extreme weather events with breaking news threat modeling to develop a framework for the age of human-caused climate change that emphasizes the \"So What\" and \"Here's Why This Matters\" of the unfolding story.",
     "session_type": "Panel",
     "track": "",
     "start_time": "2025-03-08T16:15:00Z",
@@ -5583,11 +6667,56 @@
     "skill_level": "",
     "speakers": [
       {
+        "first": "Adiel",
+        "last": "Kaplan",
+        "affiliation": "NBC News",
+        "bio": "Adiel Kaplan is an investigative reporter and editor at NBC News, where she works on investigative projects with a data focus. Her work primarily appears in print on NBCNews.com, with cross-platform stories airing on Nightly News and NBC News NOW. She has covered topics from climate change to criminal justice, healthcare and labor, and teaches investigative reporting for the Stabile Center for Investigative Reporting and the Data Program at Columbia Journalism School.",
+        "social": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/adiel-kaplan/"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/adielkaplan.bsky.social"
+          }
+        ]
+      },
+      {
         "first": "Chris",
         "last": "Keller",
         "affiliation": "The Associated Press",
-        "bio": "",
-        "social": []
+        "bio": "Christopher L. Keller joined The Associated Press in 2023 as a member of its award-winning data journalism team. His particular focus is building datasets that can help provide big-picture context in breaking news situations. Christopher has worked in a variety of roles in various newsrooms since 2002. He grew up in Wisconsin, attended the University of Wisconsin-Stevens Point and currently studies interpersonal communication at the University of New Mexico.",
+        "social": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/chris-keller-48471a1a5/"
+          },
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/christopherlkeller.bsky.social"
+          }
+        ]
+      },
+      {
+        "first": "Teghan",
+        "last": "Simonton",
+        "affiliation": "Tampa Bay Times",
+        "bio": "Teghan Simonton is a data reporter for the business and health teams at the Tampa Bay Times, where she's written about housing, cost of living and public health. She joined the newsroom in 2023 after working as a research assistant for Investigative Reporters & Editors. When not writing words or code, she likes to bake, train for marathons (three, so far) and get lost in bookstores.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://twitter.com/teghan_simonton"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/teghan-simonton"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/teghan-simonton/"
+          }
+        ]
       },
       {
         "first": "M.K.",
@@ -5601,7 +6730,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Saturday"
   },
@@ -5609,7 +6738,7 @@
     "session_id": 1034,
     "session_title": "Customizing ggplot for yourself or your organization",
     "canceled": false,
-    "description": "",
+    "description": "Imagine a version of ggplot customized to your organization’s style guidelines, in which you no longer have to write the same theme styling or geom_text layers every time you make a new chart. We’ve done that at Pew Research Center by writing our own graphics package made up of functions that modify, combine and extend existing ggplot functions (wrappers), and we want to share what we learned! We’ll demonstrate how to write these types of functions and give examples of the situations in which they’re particularly useful. At a minimum, attendees would leave the session knowing how to get much closer to publication-ready graphics without leaving R in far fewer lines of code. For those who may want to go beyond streamlining their personal ggplot use, we’ll also go over why (or why not) a custom R graphics package could be the right solution for their organizations — and how to start building one if it is.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-08T16:15:00Z",
@@ -5654,42 +6783,6 @@
       "os": "PC",
       "recorded": false,
       "room_name": "Crystal Lake"
-    },
-    "day": "Saturday"
-  },
-  {
-    "session_id": 2091,
-    "session_title": "Data scouting: A heuristic to plan data scraping and collection",
-    "canceled": false,
-    "description": "",
-    "session_type": "Demo",
-    "track": "",
-    "start_time": "2025-03-08T16:15:00Z",
-    "end_time": "2025-03-08T17:15:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [
-      {
-        "first": "Alison",
-        "last": "Benjamin",
-        "affiliation": "BBC News",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "os": "BYO",
-      "recorded": false,
-      "room_name": "Pine Lake/Cedar Lake"
     },
     "day": "Saturday"
   },
@@ -5752,7 +6845,7 @@
       {
         "first": "Albert",
         "last": "Serna",
-        "affiliation": "OpenSecrets",
+        "affiliation": "bglavin@opensecrets.org",
         "bio": "",
         "social": []
       }
@@ -5761,34 +6854,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
-    },
-    "day": "Saturday"
-  },
-  {
-    "session_id": 2081,
-    "session_title": "Fraud investigations: How to get and use data",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
-    "track": "",
-    "start_time": "2025-03-08T16:15:00Z",
-    "end_time": "2025-03-08T17:15:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Saturday"
   },
@@ -5840,9 +6906,43 @@
     "skill_level": "",
     "speakers": [
       {
+        "first": "Dillon",
+        "last": "Bergin",
+        "affiliation": "Muckrock",
+        "bio": "",
+        "social": []
+      },
+      {
         "first": "Kelly",
         "last": "Kauffman",
         "affiliation": "MuckRock",
+        "bio": "",
+        "social": []
+      },
+      {
+        "first": "Kate",
+        "last": "Martin",
+        "affiliation": "APM Reports",
+        "bio": "Kate Martin is a data correspondent at APM Reports. Over two decades, her investigative reporting has driven policy reforms, forced resignations, led to criminal indictments and spurred changes to at least five state laws or legal precedents. Most recently, she uncovered widespread violations of Illinois laws by hospitals failing to follow laws meant to protect sexual assault survivors.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/katereports.bsky.social"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/katemartin"
+          },
+          {
+            "label": "X",
+            "url": "https://x.com/KateReports"
+          }
+        ]
+      },
+      {
+        "first": "Matt",
+        "last": "Topic",
+        "affiliation": "Loevy & Loevy",
         "bio": "",
         "social": []
       }
@@ -5915,42 +7015,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
-    },
-    "day": "Saturday"
-  },
-  {
-    "session_id": 2074,
-    "session_title": "Beginner track: Writing with numbers",
-    "canceled": false,
-    "description": "",
-    "session_type": "Panel",
-    "track": "Beginner",
-    "start_time": "2025-03-08T17:30:00Z",
-    "end_time": "2025-03-08T18:30:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": true,
-    "audio_recording_link": "",
-    "skill_level": "",
-    "speakers": [
-      {
-        "first": "Jennifer",
-        "last": "LaFleur",
-        "affiliation": "UC Berkeley",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Saturday"
   },
@@ -5972,7 +7037,15 @@
     "recorded": false,
     "audio_recording_link": "",
     "skill_level": "Advanced",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Simon",
+        "last": "Willison",
+        "affiliation": "Datasette",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "eighth",
@@ -6028,6 +7101,34 @@
     "day": "Saturday"
   },
   {
+    "session_id": 2012,
+    "session_title": "Google Sheets 1: Getting started with spreadsheets (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-08T17:30:00Z",
+    "end_time": "2025-03-08T18:30:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "BYO",
+      "recorded": false,
+      "room_name": "Pine Lake/Cedar Lake"
+    },
+    "day": "Saturday"
+  },
+  {
     "session_id": 1131,
     "session_title": "Lessons learned from inclusive collaborations to inform Global Majority-led cross-border investigations",
     "canceled": false,
@@ -6052,13 +7153,20 @@
         "affiliation": "Lighthouse Reports",
         "bio": "",
         "social": []
+      },
+      {
+        "first": "William",
+        "last": "Lager",
+        "affiliation": "The Marshall Project",
+        "bio": "",
+        "social": []
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Saturday"
   },
@@ -6066,7 +7174,7 @@
     "session_id": 1059,
     "session_title": "Spatial analysis using geographical Census data",
     "canceled": false,
-    "description": "",
+    "description": "How to find more about your community with spatial analysis: This session will touch on how reporters can aggregate Census data using spatial analysis.",
     "session_type": "Hands-on",
     "track": "Census",
     "start_time": "2025-03-08T17:30:00Z",
@@ -6082,11 +7190,32 @@
     "skill_level": "Intermediate",
     "speakers": [
       {
+        "first": "Michael",
+        "last": "Corey",
+        "affiliation": "Mapping Prejudice, University of Minnesota Libraries",
+        "bio": "Michael Corey is the geospatial, technical and data lead, and associate director, for Mapping Prejudice. Before transitioning to public history, Michael spent 20 years as a data journalist at the Star Tribune, Reveal from the Center for Investigative Reporting and the Des Moines Register. His previous work has spanned zoning and segregation, mortgage disparities, the U.S.-Mexico border fence system, human-induced earthquakes and sexual abuse in the Catholic Church.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/mikejcorey.bsky.social"
+          }
+        ]
+      },
+      {
         "first": "Sandhya",
         "last": "Kambhampati",
         "affiliation": "Los Angeles Times",
-        "bio": "",
-        "social": []
+        "bio": "Sandhya Kambhampati is a data reporter on the Los Angeles Times data desk, where she specializes in demographic and statistical analyses. She previously worked at the Chronicle of Higher Education, Correctiv and ProPublica Illinois. She is an adjunct at the Annenberg School at University of Southern California.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/sandhyak.bsky.social"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/sandhyakambhampati/"
+          }
+        ]
       }
     ],
     "tipsheets": [],
@@ -6123,13 +7252,20 @@
         "affiliation": "The Washington Post",
         "bio": "Jeremy B. Merrill is a data reporter at The Washington Post. He likes natural language processing and bad jokes. He lives in Atlanta.",
         "social": []
+      },
+      {
+        "first": "Ence",
+        "last": "Morse",
+        "affiliation": "The Washington Post",
+        "bio": "",
+        "social": []
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Saturday"
   },
@@ -6205,7 +7341,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Saturday"
   },
@@ -6387,15 +7523,20 @@
         "first": "Jeff",
         "last": "Hargarten",
         "affiliation": "Star Tribune",
-        "bio": "",
-        "social": []
+        "bio": "Jeff is a Minneapolis-based journalist at the intersection of data analysis, reporting, coding and design.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/jeffhargarten.bsky.social"
+          }
+        ]
       }
     ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Saturday"
   },
@@ -6417,12 +7558,20 @@
     "recorded": true,
     "audio_recording_link": "",
     "skill_level": "",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Matt",
+        "last": "Topic",
+        "affiliation": "Loevy & Loevy",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Saturday"
   },
@@ -6457,7 +7606,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Saturday"
   },
@@ -6465,7 +7614,7 @@
     "session_id": 3005,
     "session_title": "Navigating federal campaign finance data",
     "canceled": false,
-    "description": "",
+    "description": "This class will focus on using the FEC’s web tools to access data. It will feature a hands-on demonstration of accessing reports as soon as they are filed. Participants will learn what is included in the reports, how to interpret entries, and potential pitfalls. The presenter will share a user-friendly spreadsheet template for viewing downloaded report data and walk participants through a simple recipe for creating compelling stories using campaign finance data.  \nThis session is good for everyone. Attendees will need to bring their own laptops (no tablets) for the training.",
     "session_type": "Hands-on",
     "track": "Elections",
     "start_time": "2025-03-08T21:30:00Z",
@@ -6478,8 +7627,16 @@
     "sponsor": "",
     "recorded": false,
     "audio_recording_link": "",
-    "skill_level": "Advanced",
-    "speakers": [],
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "Brendan",
+        "last": "Glavin",
+        "affiliation": "OpenSecrets",
+        "bio": "",
+        "social": []
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
@@ -6551,7 +7708,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Saturday"
   },
@@ -6607,7 +7764,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Saturday"
   },
@@ -6648,7 +7805,7 @@
       "level": "fourth",
       "os": "PC",
       "recorded": false,
-      "room_name": "Crystal Lake"
+      "room_name": "Deer Lake"
     },
     "day": "Saturday"
   },
@@ -6656,7 +7813,7 @@
     "session_id": 1186,
     "session_title": "Tools, tips and tough lessons for teaching data journalism",
     "canceled": false,
-    "description": "NICAR has a mix of people who have been teaching for a long time and a lot of adjuncts who make side money teaching a class. This panel is all about the latest in teaching data journalism. For example, I'm working on an interactive textbook that rewrites itself so a student in Minnesota gets Minnesota data and Minnesota local examples. There's many more out there.",
+    "description": "This panel is all about the latest in teaching data journalism to college students. Many NICAR participants have been teaching for a long time, or make side money teaching a class as an adjunct. The panelists will discuss strategies and techniques that help make data journalism accessible to students.",
     "session_type": "Panel",
     "track": "",
     "start_time": "2025-03-08T21:30:00Z",
@@ -6696,6 +7853,18 @@
         ]
       },
       {
+        "first": "Maggie",
+        "last": "Mulvihill",
+        "affiliation": "Boston University",
+        "bio": "Maggie Mulvihill is a veteran reporter, data journalism trainer, news entrepreneur, First Amendment advocate and attorney. Mulvihill is an associate professor of the practice in computational journalism at Boston University and a member of IRE’s Academic Task Force.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/@maggiemulvihill"
+          }
+        ]
+      },
+      {
         "first": "Aarushi",
         "last": "Sahejpal",
         "affiliation": "American University",
@@ -6714,13 +7883,13 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Saturday"
   },
   {
     "session_id": 2079,
-    "session_title": "Curtis Gilbert, APM Reports (moderator) <YES>; Kate Howard, Reveal<YES>; Larissa Anderson, New York Times<MAYBE>; Brent Jones, NPR <Curtis will invite one more>",
+    "session_title": "How to turn your investigation or data findings into narrative audio",
     "canceled": false,
     "description": "",
     "session_type": "Panel",
@@ -6756,51 +7925,15 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
-    },
-    "day": "Saturday"
-  },
-  {
-    "session_id": 3002,
-    "session_title": "Help train JedR Masters",
-    "canceled": false,
-    "description": "",
-    "session_type": "Hands-on",
-    "track": "",
-    "start_time": "2025-03-08T22:45:00Z",
-    "end_time": "2025-03-08T23:45:00Z",
-    "duration_mins": 60,
-    "duration_formatted": "1h",
-    "evergreen": false,
-    "cost": "",
-    "prereg_link": "",
-    "sponsor": "",
-    "recorded": false,
-    "audio_recording_link": "",
-    "skill_level": "Advanced",
-    "speakers": [
-      {
-        "first": "Christian",
-        "last": "McDonald",
-        "affiliation": "University of Texas at Austin",
-        "bio": "",
-        "social": []
-      }
-    ],
-    "tipsheets": [],
-    "room": {
-      "level": "fourth",
-      "os": "PC",
-      "recorded": false,
-      "room_name": "Deer Lake"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Saturday"
   },
   {
     "session_id": 2083,
-    "session_title": "Networking and meetup for managers, editors and leaders",
+    "session_title": "Manager meetup: Networking for investigative leaders",
     "canceled": false,
-    "description": "",
+    "description": "Leading investigative journalists can be extra challenging, so let us help! Socialize, forge partnerships or find a support group at this NICAR25 meetup! Swap best practices, laugh at lessons learned along your journey and find out more about IRE’s upcoming management training initiatives! \n\nThis networking event takes place directly after the always-popular, slightly shorter, FREE “Managing Investigators” master class. You don’t have to attend the master class in order to stop by the meetup, though we welcome you to check it out! This networking session is for anyone managing (or aspiring to manage) investigators.",
     "session_type": "Networking",
     "track": "Networking",
     "start_time": "2025-03-08T22:45:00Z",
@@ -6906,8 +8039,8 @@
       {
         "first": "Katlyn",
         "last": "Alo",
-        "affiliation": "Independent journalist",
-        "bio": "",
+        "affiliation": "The Washington Post",
+        "bio": "Katlyn builds tools to help reporters take on ambitious stories.",
         "social": []
       },
       {
@@ -6946,7 +8079,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 4"
+      "room_name": "Grand Portage Ballroom 4"
     },
     "day": "Saturday"
   },
@@ -7022,7 +8155,64 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
+    },
+    "day": "Saturday"
+  },
+  {
+    "session_id": 3002,
+    "session_title": "Teaching lessons from the JedR Academy",
+    "canceled": false,
+    "description": "While there is a myriad of platforms and methods to teach people R, this hands-on session will showcase the benefits and challenges of interactive lessons using Quarto Live and the posit.cloud platform, which we've used to develop JedR Academy, a fun way to learn and practice data journalism in R with a Star Wars theme. Learn to build interactive lessons that run in a browser without a Shiny server.\n\nThis session is good for: Those who teach R or are interested in developing interactive tutorials with Quarto Live and posit.cloud.",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-08T22:45:00Z",
+    "end_time": "2025-03-08T23:45:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "Advanced",
+    "speakers": [
+      {
+        "first": "Christian",
+        "last": "McDonald",
+        "affiliation": "University of Texas at Austin",
+        "bio": "Christian McDonald is an associate professor of practice and the innovation director in the school of journalism and media at the University of Texas at Austin, where he teaches classes about data, coding and news products. His last newsroom position was as data and online projects editor at the Austin American-Statesman. In his 28 years in journalism, he also worked at the Atlanta Journal-Constitution, East Valley (Arizona) Tribune and the Longview (Texas) News-Journal.",
+        "social": [
+          {
+            "label": "Bluesky",
+            "url": "https://bsky.app/profile/crit.bsky.social"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/critmcdonald"
+          },
+          {
+            "label": "GitHub (org)",
+            "url": "https://github.com/utdata"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/critmcdonald"
+          },
+          {
+            "label": "Mastodon",
+            "url": "https://newsie.social/@crit"
+          }
+        ]
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "os": "PC",
+      "recorded": false,
+      "room_name": "Deer Lake"
     },
     "day": "Saturday"
   },
@@ -7044,12 +8234,29 @@
     "recorded": true,
     "audio_recording_link": "",
     "skill_level": "",
-    "speakers": [],
+    "speakers": [
+      {
+        "first": "Camila ",
+        "last": "Vallejo ",
+        "affiliation": "Eviction Lab ",
+        "bio": "Camila is a communications specialist for the Eviction Lab at Princeton University. She’s interested in the impacts of substandard housing, who gets harmed by evictions and tenant organizing. Before joining the lab, Camila was the housing reporter for Connecticut Public Radio (WNPR) through Report for America. She covered housing policy with a social justice lens. Her work has been featured on NPR’s Morning Edition, PRX’s The World, NPR’s Here and Now and more.",
+        "social": [
+          {
+            "label": "X",
+            "url": "https://x.com/m_camilavallejo"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/camilavallejo/"
+          }
+        ]
+      }
+    ],
     "tipsheets": [],
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 3"
+      "room_name": "Grand Portage Ballroom 3"
     },
     "day": "Saturday"
   },
@@ -7057,7 +8264,7 @@
     "session_id": 1045,
     "session_title": "Using open-source tools to investigate public transit",
     "canceled": false,
-    "description": "",
+    "description": "Session attendees would learn how to collect live vehicle location data to report on transit and accessibility. We'd spend part of the session learning about GTFS and GTFS-realtime data, and the other part learning how to use conveyal's r5r package to model multimodal transit networks with R.",
     "session_type": "Hands-on",
     "track": "",
     "start_time": "2025-03-08T22:45:00Z",
@@ -7149,7 +8356,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Sunday"
   },
@@ -7221,7 +8428,70 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
+    },
+    "day": "Sunday"
+  },
+  {
+    "session_id": 3015,
+    "session_title": "Introduction to the command line (Macs) (repeat)",
+    "canceled": false,
+    "description": "",
+    "session_type": "Hands-on",
+    "track": "",
+    "start_time": "2025-03-09T14:00:00Z",
+    "end_time": "2025-03-09T15:00:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": false,
+    "audio_recording_link": "",
+    "skill_level": "",
+    "speakers": [],
+    "tipsheets": [],
+    "room": {
+      "level": "sixth",
+      "os": "Mac",
+      "recorded": false,
+      "room_name": "St. Croix I"
+    },
+    "day": "Sunday"
+  },
+  {
+    "session_id": 1133,
+    "session_title": "Covering transportation with data and docs",
+    "canceled": false,
+    "description": "",
+    "session_type": "Panel",
+    "track": "",
+    "start_time": "2025-03-09T15:15:00Z",
+    "end_time": "2025-03-09T16:15:00Z",
+    "duration_mins": 60,
+    "duration_formatted": "1h",
+    "evergreen": false,
+    "cost": "",
+    "prereg_link": "",
+    "sponsor": "",
+    "recorded": true,
+    "audio_recording_link": "",
+    "skill_level": "Beginner",
+    "speakers": [
+      {
+        "first": "Paul",
+        "last": "Overberg",
+        "affiliation": "The Wall Street Journal",
+        "bio": "",
+        "social": []
+      }
+    ],
+    "tipsheets": [],
+    "room": {
+      "level": "fourth",
+      "recorded": true,
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Sunday"
   },
@@ -7315,7 +8585,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Sunday"
   },
@@ -7342,13 +8612,13 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 1"
+      "room_name": "Grand Portage Ballroom 1"
     },
     "day": "Sunday"
   },
   {
-    "session_id": 2004,
-    "session_title": "Localizing national data sets",
+    "session_id": 2081,
+    "session_title": "Fraud investigations: How to get and use data",
     "canceled": false,
     "description": "",
     "session_type": "Panel",
@@ -7369,7 +8639,7 @@
     "room": {
       "level": "fourth",
       "recorded": true,
-      "room_name": "Ballroom 2"
+      "room_name": "Grand Portage Ballroom 2"
     },
     "day": "Sunday"
   }
