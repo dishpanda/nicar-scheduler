@@ -20,12 +20,34 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { CalendarView } from "./CalendarView";
 import schedule from "../assets/nicar-2025-schedule.json";
-import { Workshop } from "@/types/types"; // Adjust the path as necessary
+import { Workshop } from "@/types/types";
 
 const DESCRIPTION_PREVIEW_LENGTH = 100;
 
 const WorkshopScheduler = () => {
-  const scheduleData: Workshop[] = schedule;
+  const scheduleData: Workshop[] = schedule.flatMap((workshop) => {
+    if (Array.isArray(workshop.multi_day) && workshop.multi_day.length > 0) {
+      return workshop.multi_day.map((session) => ({
+        ...workshop,
+        start_time: session.start_time,
+        end_time: session.end_time,
+        duration_mins: session.duration_mins,
+        day: new Date(session.start_time).toLocaleDateString("en-US", {
+          weekday: "long",
+        }),
+      }));
+    }
+
+    return [
+      {
+        ...workshop,
+        day: new Date(workshop.start_time).toLocaleDateString("en-US", {
+          weekday: "long",
+        }),
+      },
+    ];
+  });
+
   const [selectedWorkshops, setSelectedWorkshops] = useState(new Set<number>());
   const [conflictAlert, setConflictAlert] = useState<{
     workshop: Workshop | null;
@@ -142,9 +164,21 @@ const WorkshopScheduler = () => {
   }, [filteredWorkshops]);
 
   const generateICSFile = () => {
-    const selectedSessions = scheduleData.filter((workshop) =>
-      selectedWorkshops.has(workshop.session_id),
-    );
+    const selectedSessions = scheduleData
+      .filter((workshop) => selectedWorkshops.has(workshop.session_id))
+      .flatMap((workshop) => {
+        if (
+          Array.isArray(workshop.multi_day) &&
+          workshop.multi_day.length > 0
+        ) {
+          return workshop.multi_day.map((session) => ({
+            ...workshop,
+            start_time: session.start_time,
+            end_time: session.end_time,
+          }));
+        }
+        return workshop;
+      });
 
     let icsContent = [
       "BEGIN:VCALENDAR",
@@ -174,7 +208,7 @@ const WorkshopScheduler = () => {
 
       icsContent = icsContent.concat([
         "BEGIN:VEVENT",
-        `UID:${session.session_id}@nicar2025`,
+        `UID:${session.session_id}-${formatDateForICS(startDate)}@nicar2025`,
         `DTSTAMP:${formatDateForICS(new Date())}`,
         `DTSTART:${formatDateForICS(startDate)}`,
         `DTEND:${formatDateForICS(endDate)}`,

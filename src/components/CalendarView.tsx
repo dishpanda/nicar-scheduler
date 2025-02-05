@@ -36,8 +36,12 @@ export const CalendarView = ({
       .filter((workshop) => selectedWorkshops.has(workshop.session_id))
       .filter((workshop) => {
         const startTime = new Date(workshop.start_time);
+        const workshopDay = startTime.toLocaleDateString("en-US", {
+          weekday: "long",
+        });
+
         return (
-          workshop.day === day &&
+          workshopDay === day &&
           startTime.getHours() === slotStartTime.getHours() &&
           Math.floor(startTime.getMinutes() / 30) ===
             Math.floor(parseInt(minute) / 30)
@@ -46,6 +50,34 @@ export const CalendarView = ({
   };
 
   const calculateSessionHeight = (workshop: Workshop) => {
+    const getSessionDuration = (startTime: string, endTime: string) => {
+      const start = new Date(startTime);
+      const end = new Date(endTime);
+      return (end.valueOf() - start.valueOf()) / (1000 * 60);
+    };
+
+    if (workshop.multi_day) {
+      const sessionStartTime = new Date(workshop.start_time);
+
+      if (sessionStartTime) {
+        const durationMinutes =
+          sessionStartTime && sessionStartTime
+            ? getSessionDuration(
+                sessionStartTime.toISOString(),
+                new Date(
+                  workshop.multi_day.find(
+                    (session) =>
+                      new Date(session.start_time).getDate() ===
+                      sessionStartTime.getDate(),
+                  )?.end_time || workshop.end_time,
+                ).toISOString(),
+              )
+            : 0;
+
+        return `${(durationMinutes / 30) * 4}rem`;
+      }
+    }
+
     const start = new Date(workshop.start_time);
     const end = new Date(workshop.end_time);
     const durationMinutes = (end.valueOf() - start.valueOf()) / (1000 * 60);

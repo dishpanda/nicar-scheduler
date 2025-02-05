@@ -20,6 +20,13 @@ export type Workshop = {
   tipsheets: Link[];
   room: Room;
   day: string;
+  multi_day?: Session[];
+};
+
+type Session = {
+  start_time: string | Date;
+  end_time: string | Date;
+  duration_mins: number;
 };
 
 type Room = {
