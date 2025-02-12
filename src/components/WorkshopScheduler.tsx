@@ -53,7 +53,6 @@ const WorkshopScheduler = () => {
         }
 
         const data = await response.json();
-        console.log("Fetched Data:", data);
 
         // Ensure the response is an array before processing
         if (!Array.isArray(data)) {
