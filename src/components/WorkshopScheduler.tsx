@@ -1,4 +1,5 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
+import fetchJsonp from "fetch-jsonp";
 import {
   Clock,
   GraduationCap,
@@ -19,35 +20,13 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { CalendarView } from "./CalendarView";
-import schedule from "../assets/nicar-2025-schedule.json";
 import { Workshop } from "@/types/types";
 
 const DESCRIPTION_PREVIEW_LENGTH = 100;
+const API_URL = "https://schedules.ire.org/nicar-2025/nicar-2025-schedule.json";
 
 const WorkshopScheduler = () => {
-  const scheduleData: Workshop[] = schedule.flatMap((workshop) => {
-    if (Array.isArray(workshop.multi_day) && workshop.multi_day.length > 0) {
-      return workshop.multi_day.map((session) => ({
-        ...workshop,
-        start_time: session.start_time,
-        end_time: session.end_time,
-        duration_mins: session.duration_mins,
-        day: new Date(session.start_time).toLocaleDateString("en-US", {
-          weekday: "long",
-        }),
-      }));
-    }
-
-    return [
-      {
-        ...workshop,
-        day: new Date(workshop.start_time).toLocaleDateString("en-US", {
-          weekday: "long",
-        }),
-      },
-    ];
-  });
-
+  const [scheduleData, setScheduleData] = useState<Workshop[]>([]);
   const [selectedWorkshops, setSelectedWorkshops] = useState(new Set<number>());
   const [conflictAlert, setConflictAlert] = useState<{
     workshop: Workshop | null;
@@ -63,6 +42,65 @@ const WorkshopScheduler = () => {
     skillLevel: "all",
     sessionType: "all",
   });
+
+  useEffect(() => {
+    const fetchSchedule = async () => {
+      try {
+        const response = await fetch(API_URL);
+
+        // Handle HTTP errors
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("Fetched Data:", data);
+
+        // Ensure the response is an array before processing
+        if (!Array.isArray(data)) {
+          console.error("Unexpected API response format", data);
+          return;
+        }
+
+        // Process workshops
+        const workshops = data.flatMap((workshop: Workshop): Workshop[] => {
+          if (
+            Array.isArray(workshop.multi_day) &&
+            workshop.multi_day.length > 0
+          ) {
+            return workshop.multi_day.map((session) => ({
+              ...workshop,
+              start_time: session.start_time,
+              end_time: session.end_time,
+              duration_mins: session.duration_mins || 0,
+              day: session.start_time
+                ? new Date(session.start_time).toLocaleDateString("en-US", {
+                    weekday: "long",
+                  })
+                : "Unknown",
+            }));
+          }
+
+          return [
+            {
+              ...workshop,
+              day: workshop.start_time
+                ? new Date(workshop.start_time).toLocaleDateString("en-US", {
+                    weekday: "long",
+                  })
+                : "Unknown",
+            },
+          ];
+        });
+
+        setScheduleData(workshops);
+      } catch (error) {
+        console.error("Error fetching schedule:", error);
+      }
+    };
+
+    fetchSchedule();
+  }, []);
 
   const toggleCardExpansion = (
     sessionId: number,
@@ -139,7 +177,7 @@ const WorkshopScheduler = () => {
         .filter(Boolean)
         .sort(),
     }),
-    [],
+    [scheduleData],
   );
 
   const filteredWorkshops = useMemo(() => {
@@ -152,7 +190,7 @@ const WorkshopScheduler = () => {
           workshop.session_type === filters.sessionType)
       );
     });
-  }, [filters]);
+  }, [filters, scheduleData]);
 
   const sortedWorkshops = useMemo(() => {
     return [...filteredWorkshops].sort((a, b) => {
