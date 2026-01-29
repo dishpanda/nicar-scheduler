@@ -19,10 +19,77 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { CalendarView } from "./CalendarView";
-import { Workshop } from "@/types/types";
+import {
+  Workshop,
+  Nicar2026ApiResponse,
+  Nicar2026Session,
+  Speaker,
+} from "@/types/types";
 
 const DESCRIPTION_PREVIEW_LENGTH = 100;
-const API_URL = "https://schedules.ire.org/nicar-2025/nicar-2025-schedule.json";
+const API_URL = "https://schedules.ire.org/nicar-2026/nicar-2026-schedule.json";
+
+const stripHtml = (html: string): string => {
+  if (!html) return "";
+  const tmp = document.createElement("div");
+  tmp.innerHTML = html;
+  return tmp.textContent || tmp.innerText || "";
+};
+
+const transform2026ToWorkshops = (data: Nicar2026ApiResponse): Workshop[] => {
+  const speakersById = new Map(
+    data.speakers.filter((s) => s.id).map((s) => [s.id, s])
+  );
+
+  return data.sessions.map((session: Nicar2026Session): Workshop => {
+    const startTime = new Date(session.start_time);
+    const endTime = new Date(session.end_time);
+    const durationMins = Math.round(
+      (endTime.getTime() - startTime.getTime()) / (1000 * 60)
+    );
+
+    const speakers: Speaker[] = (session.speakers || [])
+      .map((id) => speakersById.get(id))
+      .filter((s): s is NonNullable<typeof s> => Boolean(s))
+      .map((s) => ({
+        first: s.first_name,
+        last: s.last_name,
+        affiliation: s.affiliation || "",
+        bio: s.bio,
+        social: s.social,
+      }));
+
+    const roomInfo = session.room ? data.rooms[session.room] : undefined;
+
+    return {
+      session_id: session.session_id,
+      session_title: session.session_title,
+      canceled: session.canceled,
+      description: stripHtml(session.description || ""),
+      session_type: session.session_type,
+      track: (session.tracks || []).join(", "),
+      start_time: session.start_time,
+      end_time: session.end_time,
+      duration_mins: durationMins,
+      duration_formatted:
+        durationMins >= 60
+          ? `${Math.floor(durationMins / 60)}h${durationMins % 60 ? ` ${durationMins % 60}m` : ""}`
+          : `${durationMins}m`,
+      skill_level: session.skill_level || "",
+      speakers,
+      room: session.room
+        ? {
+            room_name: session.room,
+            level: roomInfo?.level?.toString(),
+            os: roomInfo?.os,
+          }
+        : null,
+      day: startTime.toLocaleDateString("en-US", { weekday: "long" }),
+      cost: session.cost,
+      recorded: session.recorded,
+    };
+  });
+};
 
 const WorkshopScheduler = () => {
   const [scheduleData, setScheduleData] = useState<Workshop[]>([]);
@@ -47,51 +114,21 @@ const WorkshopScheduler = () => {
       try {
         const response = await fetch(API_URL);
 
-        // Handle HTTP errors
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
         const data = await response.json();
 
-        // Ensure the response is an array before processing
-        if (!Array.isArray(data)) {
-          console.error("Unexpected API response format", data);
+        if (data?.sessions && Array.isArray(data.sessions)) {
+          const workshops = transform2026ToWorkshops(
+            data as Nicar2026ApiResponse
+          );
+          setScheduleData(workshops);
           return;
         }
 
-        // Process workshops
-        const workshops = data.flatMap((workshop: Workshop): Workshop[] => {
-          if (
-            Array.isArray(workshop.multi_day) &&
-            workshop.multi_day.length > 0
-          ) {
-            return workshop.multi_day.map((session) => ({
-              ...workshop,
-              start_time: session.start_time,
-              end_time: session.end_time,
-              duration_mins: session.duration_mins || 0,
-              day: session.start_time
-                ? new Date(session.start_time).toLocaleDateString("en-US", {
-                    weekday: "long",
-                  })
-                : "Unknown",
-            }));
-          }
-
-          return [
-            {
-              ...workshop,
-              day: workshop.start_time
-                ? new Date(workshop.start_time).toLocaleDateString("en-US", {
-                    weekday: "long",
-                  })
-                : "Unknown",
-            },
-          ];
-        });
-
-        setScheduleData(workshops);
+        console.error("Unexpected API response format", data);
       } catch (error) {
         console.error("Error fetching schedule:", error);
       }
@@ -200,26 +237,14 @@ const WorkshopScheduler = () => {
   }, [filteredWorkshops]);
 
   const generateICSFile = () => {
-    const selectedSessions = scheduleData
-      .filter((workshop) => selectedWorkshops.has(workshop.session_id))
-      .flatMap((workshop) => {
-        if (
-          Array.isArray(workshop.multi_day) &&
-          workshop.multi_day.length > 0
-        ) {
-          return workshop.multi_day.map((session) => ({
-            ...workshop,
-            start_time: session.start_time,
-            end_time: session.end_time,
-          }));
-        }
-        return workshop;
-      });
+    const selectedSessions = scheduleData.filter((workshop) =>
+      selectedWorkshops.has(workshop.session_id)
+    );
 
     let icsContent = [
       "BEGIN:VCALENDAR",
       "VERSION:2.0",
-      "PRODID:-//NICAR 2025//Workshop Schedule//EN",
+      "PRODID:-//NICAR 2026//Workshop Schedule//EN",
     ];
 
     selectedSessions.forEach((session) => {
@@ -244,7 +269,7 @@ const WorkshopScheduler = () => {
 
       icsContent = icsContent.concat([
         "BEGIN:VEVENT",
-        `UID:${session.session_id}-${formatDateForICS(startDate)}@nicar2025`,
+        `UID:${session.session_id}-${formatDateForICS(startDate)}@nicar2026`,
         `DTSTAMP:${formatDateForICS(new Date())}`,
         `DTSTART:${formatDateForICS(startDate)}`,
         `DTEND:${formatDateForICS(endDate)}`,
@@ -270,7 +295,7 @@ const WorkshopScheduler = () => {
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "nicar-2025-schedule.ics";
+    a.download = "nicar-2026-schedule.ics";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -305,12 +330,12 @@ const WorkshopScheduler = () => {
     <div className="p-4 max-w-6xl mx-auto">
       <div className="mb-6">
         <img
-          src="/nicar-2025-logo.png"
-          alt="NICAR 2025 Logo"
+          src="/nicar-2026-logo.png"
+          alt="NICAR 2026 Logo"
           className="w-full mb-4"
         />
         <div className="flex justify-between items-center">
-          <h1 className="text-2xl font-bold mb-2">NICAR 2025 Scheduler</h1>
+          <h1 className="text-2xl font-bold mb-2">NICAR 2026 Scheduler</h1>
           <div className="flex gap-2">
             {selectedWorkshops.size > 0 && (
               <Button
